@@ -1,0 +1,501 @@
+ID,Lead_Name,Email,Phone,Source,Date,Region,Industry,Status,Follow_up_Days,Ad_Spend,Revenue
+1,Raj Bose,raj.bose@example.com,+918216534332,Apollo.io,2026-03-17,India,Tech,New,24,100.23,0.0
+2,Neha Tv,neha.tv@example.com,+17842459488,LinkedIn Sales Navigator,2026-01-09,Other,Tech,Converted,28,79.44,2439.549369303525
+3,Priya Bose,priya.bose@example.com,+12324651201,Meta Ads,2025-12-29,US,Tech,New,15,107.95,0.0
+4,Anita Singh,anita.singh@example.com,+16242086783,WhatsApp Business,2026-01-30,US,Healthcare,New,15,125.59,0.0
+5,Vikram Desai,vikram.desai@example.com,+919574081104,HubSpot,2026-01-26,India,Finance,Converted,6,134.86,4418.089275788177
+6,Arjun Reddy,arjun.reddy@example.com,+917235286733,Apollo.io,2026-01-23,India,Healthcare,New,12,106.5,0.0
+7,Priya Desai,priya.desai@example.com,+917033015788,LinkedIn Sales Navigator,2026-01-12,India,Finance,Converted,27,144.28,6534.956499110611
+8,Arjun Kumar,arjun.kumar@example.com,+16172957943,Meta Ads,2026-01-08,Europe,Healthcare,New,29,28.26,0.0
+9,Neha Tv,neha.tv@example.com,+15060136033,WhatsApp Business,2026-03-22,US,Healthcare,Converted,20,42.4,2677.7737390223942
+10,Anita Tv,anita.tv@example.com,+14295741120,HubSpot,2026-03-05,US,HR,New,18,163.75,0.0
+11,Sonia Reddy,sonia.reddy@example.com,+918097447932,Apollo.io,2026-01-06,India,Healthcare,Converted,14,64.51,3453.269008019168
+12,Amit Singh,amit.singh@example.com,+16538133249,LinkedIn Sales Navigator,2026-03-11,Other,Retail,Converted,2,4.58,4668.530661847093
+13,Anita Sharma,anita.sharma@example.com,+11515328854,Meta Ads,2026-02-18,Europe,HR,New,9,30.76,0.0
+14,Vikram Bose,vikram.bose@example.com,+919136253713,WhatsApp Business,2025-12-30,India,Healthcare,Contacted,5,44.72,0.0
+15,Vikram Sharma,vikram.sharma@example.com,+918849649210,HubSpot,2025-12-29,India,Tech,Converted,20,191.46,3908.070476430883
+16,Neha Reddy,neha.reddy@example.com,+917754603440,Apollo.io,2026-01-06,India,Retail,Contacted,26,114.61,0.0
+17,Neha Desai,neha.desai@example.com,+917554848380,LinkedIn Sales Navigator,2026-01-22,India,Retail,New,29,186.55,0.0
+18,Vikram Desai,vikram.desai@example.com,+14022245086,Meta Ads,2026-01-24,US,Retail,Contacted,1,115.03,0.0
+19,Neha Reddy,neha.reddy@example.com,+919148610411,WhatsApp Business,2026-02-28,India,HR,Contacted,23,95.87,0.0
+20,Raj Kumar,raj.kumar@example.com,+919399699438,HubSpot,2026-03-13,India,Healthcare,Contacted,3,62.75,0.0
+21,Anita Desai,anita.desai@example.com,+18757570742,Apollo.io,2025-12-29,US,Healthcare,Contacted,6,121.27,0.0
+22,Raj Bose,raj.bose@example.com,+917309561891,LinkedIn Sales Navigator,2026-03-07,India,Tech,Contacted,5,27.84,0.0
+23,Arjun Gupta,arjun.gupta@example.com,+918705407682,Meta Ads,2026-01-20,India,Tech,New,21,179.65,0.0
+24,Anita Reddy,anita.reddy@example.com,+917181686832,WhatsApp Business,2026-03-19,India,Retail,Contacted,27,165.87,0.0
+25,Singh Gupta,singh.gupta@example.com,+918873548915,HubSpot,2026-03-25,India,Tech,Contacted,5,63.51,0.0
+26,Neha Kumar,neha.kumar@example.com,+15375461598,Apollo.io,2026-03-05,Europe,HR,New,1,190.56,0.0
+27,Anita Bose,anita.bose@example.com,+917334417350,LinkedIn Sales Navigator,2026-02-17,India,Healthcare,Converted,17,165.04,6280.189764504457
+28,Arjun Singh,arjun.singh@example.com,+18997701619,Meta Ads,2026-01-23,US,Retail,Contacted,19,133.26,0.0
+29,Rahul Mehta,rahul.mehta@example.com,+17767834064,WhatsApp Business,2026-02-21,US,Tech,Contacted,14,24.35,0.0
+30,Rahul Kumar,rahul.kumar@example.com,+919462732890,HubSpot,2026-03-11,India,HR,Converted,12,95.65,1372.29964905894
+31,Sonia Mehta,sonia.mehta@example.com,+18044354825,Apollo.io,2026-01-30,US,HR,Contacted,10,101.22,0.0
+32,Raj Sharma,raj.sharma@example.com,+918243458354,LinkedIn Sales Navigator,2025-12-26,India,Tech,Converted,20,46.51,3777.382377849035
+33,Neha Reddy,neha.reddy@example.com,+917494665880,Meta Ads,2026-01-15,India,Healthcare,Contacted,21,15.99,0.0
+34,Arjun Singh,arjun.singh@example.com,+12739600515,WhatsApp Business,2026-03-25,Other,Tech,New,18,155.34,0.0
+35,Priya Kumar,priya.kumar@example.com,+19444763362,HubSpot,2026-02-18,Other,Retail,Contacted,24,24.41,0.0
+36,Neha Kumar,neha.kumar@example.com,+12554145481,Apollo.io,2026-02-07,Europe,Tech,Contacted,27,118.86,0.0
+37,Amit Patel,amit.patel@example.com,+918875662813,LinkedIn Sales Navigator,2026-01-30,India,HR,Contacted,11,187.29,0.0
+38,Singh Tv,singh.tv@example.com,+917454678712,Meta Ads,2026-01-14,India,Tech,New,30,175.22,0.0
+39,Amit Mehta,amit.mehta@example.com,+16340003593,WhatsApp Business,2026-01-22,US,Healthcare,New,2,55.55,0.0
+40,Arjun Sharma,arjun.sharma@example.com,+919529182928,HubSpot,2026-02-07,India,Finance,New,25,170.29,0.0
+41,Rahul Desai,rahul.desai@example.com,+918719918855,Apollo.io,2026-01-08,India,Tech,New,18,0.07,0.0
+42,Arjun Kumar,arjun.kumar@example.com,+919250402001,LinkedIn Sales Navigator,2026-01-06,India,Healthcare,Contacted,29,3.54,0.0
+43,Anita Mehta,anita.mehta@example.com,+917337786687,Meta Ads,2026-02-12,India,Healthcare,New,25,120.51,0.0
+44,Anita Kumar,anita.kumar@example.com,+12458198451,WhatsApp Business,2026-01-07,Other,HR,Contacted,7,72.96,0.0
+45,Raj Tv,raj.tv@example.com,+918430518844,HubSpot,2026-02-09,India,Healthcare,Contacted,24,77.29,0.0
+46,Priya Desai,priya.desai@example.com,+14346285771,Apollo.io,2026-02-08,US,Healthcare,Contacted,15,112.89,0.0
+47,Amit Patel,amit.patel@example.com,+917328046924,LinkedIn Sales Navigator,2026-03-13,India,Healthcare,Converted,11,38.36,2273.441029736951
+48,Sonia Mehta,sonia.mehta@example.com,+13190227431,Meta Ads,2026-01-28,US,Healthcare,Contacted,18,42.35,0.0
+49,Singh Reddy,singh.reddy@example.com,+16795522649,WhatsApp Business,2025-12-31,US,Retail,Converted,23,96.92,5757.2902085796295
+50,Amit Sharma,amit.sharma@example.com,+919772156452,HubSpot,2026-02-22,India,Retail,Contacted,12,150.85,0.0
+51,Rahul Patel,rahul.patel@example.com,+14500557310,Apollo.io,2026-03-04,Other,HR,New,6,123.9,0.0
+52,Rahul Reddy,rahul.reddy@example.com,+12014766981,LinkedIn Sales Navigator,2026-01-10,Europe,Tech,Converted,20,59.47,2649.446629406606
+53,Sonia Bose,sonia.bose@example.com,+15923940434,Meta Ads,2026-02-12,Other,Healthcare,New,23,86.07,0.0
+54,Vikram Mehta,vikram.mehta@example.com,+11847275937,WhatsApp Business,2026-01-05,Europe,Tech,New,30,34.13,0.0
+55,Arjun Reddy,arjun.reddy@example.com,+13587283948,HubSpot,2026-03-06,US,Tech,Converted,13,14.93,5252.275019757032
+56,Anita Reddy,anita.reddy@example.com,+13815389788,Apollo.io,2026-02-01,Other,HR,New,20,156.54,0.0
+57,Rahul Patel,rahul.patel@example.com,+917760836806,LinkedIn Sales Navigator,2026-03-16,India,Healthcare,Converted,16,53.08,4713.854701610071
+58,Rahul Mehta,rahul.mehta@example.com,+919697019445,Meta Ads,2026-03-15,India,Healthcare,Contacted,18,35.55,0.0
+59,Neha Kumar,neha.kumar@example.com,+919122216473,WhatsApp Business,2026-02-10,India,Finance,Converted,10,138.32,5170.888127463266
+60,Neha Reddy,neha.reddy@example.com,+918992663260,HubSpot,2026-03-09,India,Tech,Contacted,28,123.61,0.0
+61,Rahul Kumar,rahul.kumar@example.com,+919421225455,Apollo.io,2026-01-19,India,Tech,Contacted,23,126.64,0.0
+62,Neha Mehta,neha.mehta@example.com,+919488796494,LinkedIn Sales Navigator,2026-03-26,India,Retail,Converted,8,45.78,591.5472715200208
+63,Priya Gupta,priya.gupta@example.com,+17977267911,Meta Ads,2026-01-03,Europe,Finance,New,18,46.53,0.0
+64,Amit Gupta,amit.gupta@example.com,+919693878240,WhatsApp Business,2025-12-31,India,Retail,Converted,21,44.16,2691.229165643377
+65,Vikram Singh,vikram.singh@example.com,+918357806226,HubSpot,2026-03-20,India,Retail,New,1,34.75,0.0
+66,Sonia Sharma,sonia.sharma@example.com,+15943324387,Apollo.io,2026-01-24,US,Retail,Contacted,23,131.14,0.0
+67,Raj Patel,raj.patel@example.com,+917293287259,LinkedIn Sales Navigator,2026-02-01,India,HR,New,8,169.6,0.0
+68,Amit Desai,amit.desai@example.com,+17308968023,Meta Ads,2026-01-05,Europe,HR,Contacted,29,144.86,0.0
+69,Raj Kumar,raj.kumar@example.com,+919711778437,WhatsApp Business,2026-01-24,India,Retail,New,6,158.42,0.0
+70,Priya Desai,priya.desai@example.com,+15536224717,HubSpot,2026-01-07,Other,Finance,Converted,5,80.96,2417.657674778833
+71,Anita Singh,anita.singh@example.com,+13178995337,Apollo.io,2026-02-12,Europe,Tech,Converted,15,130.82,4883.607409315839
+72,Sonia Mehta,sonia.mehta@example.com,+918333191560,LinkedIn Sales Navigator,2026-01-30,India,Finance,Converted,22,70.85,1755.5483701878557
+73,Anita Tv,anita.tv@example.com,+918983168873,Meta Ads,2026-02-22,India,Healthcare,New,15,105.1,0.0
+74,Amit Desai,amit.desai@example.com,+12940955281,WhatsApp Business,2026-03-17,Europe,HR,Contacted,2,96.33,0.0
+75,Anita Bose,anita.bose@example.com,+15539308214,HubSpot,2026-02-10,US,Tech,Contacted,1,35.38,0.0
+76,Singh Bose,singh.bose@example.com,+18867077130,Apollo.io,2026-01-15,US,Tech,New,23,77.42,0.0
+77,Anita Mehta,anita.mehta@example.com,+19919491730,LinkedIn Sales Navigator,2026-02-11,Europe,Healthcare,New,23,192.76,0.0
+78,Singh Singh,singh.singh@example.com,+917387820537,Meta Ads,2026-02-09,India,Healthcare,Contacted,26,49.72,0.0
+79,Neha Desai,neha.desai@example.com,+919641440900,WhatsApp Business,2026-01-21,India,Retail,Contacted,11,26.76,0.0
+80,Anita Reddy,anita.reddy@example.com,+919551553388,HubSpot,2026-03-21,India,HR,Contacted,10,83.72,0.0
+81,Sonia Bose,sonia.bose@example.com,+17472806994,Apollo.io,2026-01-29,Europe,HR,Contacted,30,158.07,0.0
+82,Amit Mehta,amit.mehta@example.com,+14847761430,LinkedIn Sales Navigator,2026-03-25,US,Finance,New,18,116.43,0.0
+83,Amit Gupta,amit.gupta@example.com,+918931591531,Meta Ads,2026-03-23,India,Retail,New,18,136.19,0.0
+84,Anita Mehta,anita.mehta@example.com,+919455246775,WhatsApp Business,2026-03-18,India,Retail,New,17,37.94,0.0
+85,Singh Desai,singh.desai@example.com,+919799620568,HubSpot,2026-01-04,India,Retail,Converted,26,123.79,4471.204247809591
+86,Vikram Desai,vikram.desai@example.com,+917808482355,Apollo.io,2026-03-13,India,Retail,New,8,64.7,0.0
+87,Raj Mehta,raj.mehta@example.com,+15560712830,LinkedIn Sales Navigator,2026-03-17,US,HR,New,15,166.86,0.0
+88,Raj Bose,raj.bose@example.com,+14067961943,Meta Ads,2026-01-16,US,HR,New,8,125.86,0.0
+89,Sonia Tv,sonia.tv@example.com,+11741134891,WhatsApp Business,2026-03-04,Europe,Retail,Converted,17,39.77,4651.717661550476
+90,Anita Bose,anita.bose@example.com,+918064051191,HubSpot,2026-01-26,India,Finance,Converted,12,12.92,3135.687435980393
+91,Arjun Tv,arjun.tv@example.com,+918880157459,Apollo.io,2026-01-15,India,Tech,Converted,27,8.53,3280.0711270371394
+92,Priya Desai,priya.desai@example.com,+19551219870,LinkedIn Sales Navigator,2026-02-23,US,Tech,Contacted,8,74.28,0.0
+93,Raj Mehta,raj.mehta@example.com,+13619094295,Meta Ads,2026-02-12,Europe,Finance,Contacted,25,53.17,0.0
+94,Raj Tv,raj.tv@example.com,+16857897124,WhatsApp Business,2026-01-29,US,Retail,New,14,129.22,0.0
+95,Neha Desai,neha.desai@example.com,+19237475801,HubSpot,2026-03-17,Europe,HR,Converted,4,99.87,2631.523281811144
+96,Vikram Kumar,vikram.kumar@example.com,+918663941470,Apollo.io,2026-03-24,India,Tech,Converted,1,53.2,3105.4161030811297
+97,Rahul Singh,rahul.singh@example.com,+13567900251,LinkedIn Sales Navigator,2026-03-07,US,Healthcare,Contacted,1,29.85,0.0
+98,Vikram Desai,vikram.desai@example.com,+919709637214,Meta Ads,2026-01-23,India,Healthcare,Converted,19,25.44,1120.0031876644325
+99,Neha Desai,neha.desai@example.com,+919780155330,WhatsApp Business,2026-03-23,India,Finance,Contacted,16,172.93,0.0
+100,Neha Sharma,neha.sharma@example.com,+918437308013,HubSpot,2026-02-05,India,Retail,Contacted,14,48.7,0.0
+101,Rahul Tv,rahul.tv@example.com,+917283089268,Apollo.io,2026-01-02,India,Tech,Converted,21,130.34,6880.953750863501
+102,Sonia Tv,sonia.tv@example.com,+12416011033,LinkedIn Sales Navigator,2026-01-24,US,Retail,Converted,16,162.14,3603.4516401843043
+103,Vikram Kumar,vikram.kumar@example.com,+919396433758,Meta Ads,2025-12-30,India,Tech,Contacted,5,122.82,0.0
+104,Priya Tv,priya.tv@example.com,+18208584394,WhatsApp Business,2026-02-04,US,Finance,Contacted,9,171.91,0.0
+105,Singh Kumar,singh.kumar@example.com,+16515369278,HubSpot,2026-02-15,Other,Finance,New,26,78.48,0.0
+106,Amit Tv,amit.tv@example.com,+919819921250,Apollo.io,2026-01-29,India,Healthcare,Contacted,30,191.24,0.0
+107,Arjun Patel,arjun.patel@example.com,+919588580274,LinkedIn Sales Navigator,2026-01-03,India,Retail,New,28,26.63,0.0
+108,Amit Patel,amit.patel@example.com,+14750707607,Meta Ads,2026-01-22,Europe,Healthcare,Contacted,2,20.43,0.0
+109,Rahul Sharma,rahul.sharma@example.com,+918431779064,WhatsApp Business,2026-03-08,India,Retail,Converted,18,131.74,6582.8650155090245
+110,Arjun Kumar,arjun.kumar@example.com,+917350048353,HubSpot,2026-02-04,India,Healthcare,Contacted,6,188.57,0.0
+111,Rahul Gupta,rahul.gupta@example.com,+919502847163,Apollo.io,2026-01-22,India,HR,Contacted,9,161.78,0.0
+112,Vikram Patel,vikram.patel@example.com,+919850192297,LinkedIn Sales Navigator,2026-03-19,India,HR,New,1,15.28,0.0
+113,Arjun Bose,arjun.bose@example.com,+16797436140,Meta Ads,2026-02-27,Other,HR,New,9,55.87,0.0
+114,Priya Patel,priya.patel@example.com,+12683446724,WhatsApp Business,2026-02-14,Europe,HR,Contacted,25,186.06,0.0
+115,Neha Sharma,neha.sharma@example.com,+15028688786,HubSpot,2026-03-18,US,Tech,New,16,50.61,0.0
+116,Arjun Tv,arjun.tv@example.com,+18695129534,Apollo.io,2026-02-22,Europe,HR,New,13,156.23,0.0
+117,Neha Bose,neha.bose@example.com,+14492602049,LinkedIn Sales Navigator,2026-01-13,Europe,Finance,Contacted,9,165.03,0.0
+118,Anita Desai,anita.desai@example.com,+919878128023,Meta Ads,2026-01-28,India,Finance,Converted,21,99.09,544.3957835071104
+119,Amit Sharma,amit.sharma@example.com,+19991312028,WhatsApp Business,2026-01-12,Europe,Tech,Contacted,13,77.27,0.0
+120,Arjun Kumar,arjun.kumar@example.com,+18174554059,HubSpot,2026-01-26,US,HR,New,9,90.02,0.0
+121,Priya Gupta,priya.gupta@example.com,+17478908722,Apollo.io,2026-03-07,Europe,HR,Contacted,11,45.39,0.0
+122,Arjun Sharma,arjun.sharma@example.com,+15373266871,LinkedIn Sales Navigator,2026-03-04,Europe,HR,Contacted,4,177.88,0.0
+123,Arjun Tv,arjun.tv@example.com,+918326569692,Meta Ads,2026-01-28,India,Healthcare,Contacted,2,90.12,0.0
+124,Vikram Reddy,vikram.reddy@example.com,+917774223342,WhatsApp Business,2026-03-10,India,Retail,Contacted,29,176.49,0.0
+125,Anita Singh,anita.singh@example.com,+917919950484,HubSpot,2026-02-18,India,Healthcare,New,6,21.14,0.0
+126,Priya Reddy,priya.reddy@example.com,+918467729242,Apollo.io,2026-03-10,India,Retail,Contacted,14,197.66,0.0
+127,Vikram Tv,vikram.tv@example.com,+13088517710,LinkedIn Sales Navigator,2026-02-15,Europe,HR,Contacted,4,88.65,0.0
+128,Anita Mehta,anita.mehta@example.com,+11590838716,Meta Ads,2026-02-10,Europe,HR,Converted,6,9.57,2993.2335393942003
+129,Priya Desai,priya.desai@example.com,+917331421524,WhatsApp Business,2026-01-23,India,Healthcare,Contacted,19,7.6,0.0
+130,Vikram Mehta,vikram.mehta@example.com,+14384950377,HubSpot,2026-01-12,US,Healthcare,Contacted,6,149.24,0.0
+131,Raj Desai,raj.desai@example.com,+919180510715,Apollo.io,2026-03-01,India,Retail,Contacted,2,131.81,0.0
+132,Raj Reddy,raj.reddy@example.com,+919318297747,LinkedIn Sales Navigator,2026-02-27,India,Finance,Contacted,18,160.43,0.0
+133,Neha Bose,neha.bose@example.com,+919261436148,Meta Ads,2026-01-06,India,Retail,Converted,13,21.07,3403.7808917419475
+134,Sonia Mehta,sonia.mehta@example.com,+917162124225,WhatsApp Business,2026-01-01,India,Healthcare,Contacted,9,7.11,0.0
+135,Rahul Desai,rahul.desai@example.com,+18137931739,HubSpot,2026-01-09,Other,Healthcare,Contacted,23,101.72,0.0
+136,Arjun Gupta,arjun.gupta@example.com,+919654424954,Apollo.io,2026-01-14,India,Tech,Contacted,19,77.52,0.0
+137,Vikram Kumar,vikram.kumar@example.com,+12617999521,LinkedIn Sales Navigator,2026-03-16,US,Healthcare,Contacted,13,92.39,0.0
+138,Priya Gupta,priya.gupta@example.com,+11696846464,Meta Ads,2026-01-15,US,Tech,Contacted,11,198.32,0.0
+139,Rahul Kumar,rahul.kumar@example.com,+919975749366,WhatsApp Business,2026-03-23,India,Finance,Converted,1,194.15,2235.463125267821
+140,Rahul Bose,rahul.bose@example.com,+12879792991,HubSpot,2026-02-18,Other,Retail,Contacted,24,188.46,0.0
+141,Arjun Desai,arjun.desai@example.com,+17059591606,Apollo.io,2026-03-12,Other,Retail,Contacted,30,156.77,0.0
+142,Vikram Tv,vikram.tv@example.com,+919904956613,LinkedIn Sales Navigator,2026-01-03,India,Tech,Converted,22,70.97,2642.5644715327617
+143,Rahul Singh,rahul.singh@example.com,+918020184428,Meta Ads,2026-02-13,India,Retail,New,7,82.43,0.0
+144,Raj Mehta,raj.mehta@example.com,+918907818922,WhatsApp Business,2026-02-12,India,Healthcare,New,25,109.92,0.0
+145,Amit Singh,amit.singh@example.com,+919622487366,HubSpot,2026-03-12,India,HR,New,21,166.11,0.0
+146,Neha Singh,neha.singh@example.com,+918223756141,Apollo.io,2026-02-23,India,Tech,Converted,15,13.74,4285.9948851074005
+147,Neha Bose,neha.bose@example.com,+18661364201,LinkedIn Sales Navigator,2026-03-03,US,Retail,New,1,84.86,0.0
+148,Neha Reddy,neha.reddy@example.com,+16322188162,Meta Ads,2026-01-27,US,Tech,New,12,16.52,0.0
+149,Singh Reddy,singh.reddy@example.com,+919014406658,WhatsApp Business,2026-03-06,India,Tech,New,26,102.93,0.0
+150,Amit Sharma,amit.sharma@example.com,+917833293142,HubSpot,2025-12-27,India,HR,New,7,179.78,0.0
+151,Amit Desai,amit.desai@example.com,+19523104008,Apollo.io,2026-03-23,Other,Healthcare,New,15,156.5,0.0
+152,Rahul Reddy,rahul.reddy@example.com,+918982900391,LinkedIn Sales Navigator,2026-01-09,India,Tech,Contacted,21,45.57,0.0
+153,Amit Mehta,amit.mehta@example.com,+918210200352,Meta Ads,2026-03-23,India,Retail,Contacted,19,195.2,0.0
+154,Rahul Mehta,rahul.mehta@example.com,+918640129626,WhatsApp Business,2026-03-04,India,Finance,New,28,133.47,0.0
+155,Singh Sharma,singh.sharma@example.com,+13597009738,HubSpot,2026-01-29,Other,Tech,New,29,2.09,0.0
+156,Neha Kumar,neha.kumar@example.com,+918073755632,Apollo.io,2026-03-18,India,Tech,New,25,51.08,0.0
+157,Anita Kumar,anita.kumar@example.com,+19814045133,LinkedIn Sales Navigator,2026-02-07,US,HR,New,1,52.14,0.0
+158,Neha Bose,neha.bose@example.com,+15012760260,Meta Ads,2026-01-09,Europe,Healthcare,Contacted,17,13.85,0.0
+159,Vikram Mehta,vikram.mehta@example.com,+919215813941,WhatsApp Business,2026-02-01,India,Finance,Contacted,17,191.97,0.0
+160,Sonia Reddy,sonia.reddy@example.com,+14655730355,HubSpot,2026-02-19,US,Retail,New,3,95.65,0.0
+161,Vikram Desai,vikram.desai@example.com,+918224336336,Apollo.io,2026-01-15,India,Finance,Contacted,12,179.16,0.0
+162,Sonia Singh,sonia.singh@example.com,+15983503547,LinkedIn Sales Navigator,2026-02-22,US,Retail,New,6,64.44,0.0
+163,Vikram Mehta,vikram.mehta@example.com,+13204833223,Meta Ads,2025-12-26,US,Healthcare,Converted,26,25.05,4223.7027591044625
+164,Neha Gupta,neha.gupta@example.com,+18864285771,WhatsApp Business,2026-01-28,US,Retail,Contacted,11,94.87,0.0
+165,Neha Kumar,neha.kumar@example.com,+917393906783,HubSpot,2026-02-28,India,HR,Contacted,3,22.79,0.0
+166,Priya Kumar,priya.kumar@example.com,+15409514899,Apollo.io,2026-01-17,Europe,HR,New,8,97.2,0.0
+167,Vikram Sharma,vikram.sharma@example.com,+917228736604,LinkedIn Sales Navigator,2026-02-28,India,HR,Converted,14,184.06,2200.095480300053
+168,Sonia Patel,sonia.patel@example.com,+918702756809,Meta Ads,2026-01-08,India,HR,New,14,104.15,0.0
+169,Amit Kumar,amit.kumar@example.com,+919156104136,WhatsApp Business,2026-03-16,India,Finance,New,10,123.3,0.0
+170,Rahul Gupta,rahul.gupta@example.com,+12606152369,HubSpot,2026-02-02,US,Healthcare,New,2,31.33,0.0
+171,Arjun Reddy,arjun.reddy@example.com,+15645459980,Apollo.io,2026-03-17,US,Retail,New,14,8.75,0.0
+172,Arjun Gupta,arjun.gupta@example.com,+917964386641,LinkedIn Sales Navigator,2026-02-28,India,Retail,Converted,9,22.16,2837.0885886475135
+173,Priya Kumar,priya.kumar@example.com,+15416031878,Meta Ads,2026-03-13,US,HR,Converted,3,119.71,2035.9667532429705
+174,Neha Kumar,neha.kumar@example.com,+917425558776,WhatsApp Business,2026-01-20,India,HR,New,21,19.0,0.0
+175,Vikram Patel,vikram.patel@example.com,+18086527181,HubSpot,2026-01-14,US,Tech,Contacted,26,75.2,0.0
+176,Neha Tv,neha.tv@example.com,+917627276995,Apollo.io,2026-02-11,India,Healthcare,Converted,8,110.02,4840.609746191364
+177,Sonia Patel,sonia.patel@example.com,+11590985753,LinkedIn Sales Navigator,2026-01-15,US,Finance,Converted,16,77.73,3525.067441122541
+178,Neha Tv,neha.tv@example.com,+918232137626,Meta Ads,2026-03-05,India,Retail,Contacted,2,32.74,0.0
+179,Singh Reddy,singh.reddy@example.com,+14569592370,WhatsApp Business,2026-03-03,Other,Tech,Converted,6,54.76,1538.1593639791604
+180,Neha Patel,neha.patel@example.com,+919014812671,HubSpot,2025-12-26,India,Tech,Converted,28,185.66,4959.478529292218
+181,Rahul Sharma,rahul.sharma@example.com,+918926728669,Apollo.io,2026-03-12,India,Retail,Contacted,21,135.2,0.0
+182,Singh Bose,singh.bose@example.com,+919642900640,LinkedIn Sales Navigator,2026-02-05,India,Finance,New,29,99.21,0.0
+183,Neha Mehta,neha.mehta@example.com,+11340272119,Meta Ads,2026-02-26,Other,Tech,Contacted,26,2.54,0.0
+184,Rahul Mehta,rahul.mehta@example.com,+12099184899,WhatsApp Business,2025-12-28,Europe,Tech,Converted,25,198.48,6500.18909065626
+185,Vikram Patel,vikram.patel@example.com,+917642181881,HubSpot,2026-01-09,India,Healthcare,New,12,134.29,0.0
+186,Singh Gupta,singh.gupta@example.com,+17561728644,Apollo.io,2026-02-10,US,Finance,Converted,5,63.38,6270.709191062456
+187,Rahul Sharma,rahul.sharma@example.com,+12237386857,LinkedIn Sales Navigator,2026-02-03,Europe,Tech,New,2,175.85,0.0
+188,Priya Desai,priya.desai@example.com,+12293434554,Meta Ads,2026-01-25,US,Finance,New,16,51.69,0.0
+189,Rahul Sharma,rahul.sharma@example.com,+11205082311,WhatsApp Business,2026-01-02,US,Retail,New,5,108.8,0.0
+190,Arjun Tv,arjun.tv@example.com,+918803136972,HubSpot,2026-01-25,India,HR,New,15,127.21,0.0
+191,Raj Patel,raj.patel@example.com,+919744276785,Apollo.io,2026-03-08,India,Tech,Converted,12,44.21,5503.966808478211
+192,Arjun Gupta,arjun.gupta@example.com,+12963288053,LinkedIn Sales Navigator,2026-01-05,Europe,Healthcare,Converted,4,195.68,4986.887453222292
+193,Priya Kumar,priya.kumar@example.com,+19182543558,Meta Ads,2026-01-05,Other,Retail,Converted,15,149.64,4651.623613795991
+194,Priya Reddy,priya.reddy@example.com,+19660523876,WhatsApp Business,2026-02-26,US,Finance,Contacted,11,111.56,0.0
+195,Anita Bose,anita.bose@example.com,+919213521907,HubSpot,2026-01-03,India,Retail,New,16,36.12,0.0
+196,Arjun Bose,arjun.bose@example.com,+919469810046,Apollo.io,2026-03-04,India,Tech,Contacted,23,10.77,0.0
+197,Amit Reddy,amit.reddy@example.com,+15911625145,LinkedIn Sales Navigator,2026-01-11,US,Finance,Contacted,6,64.01,0.0
+198,Anita Mehta,anita.mehta@example.com,+12843567009,Meta Ads,2026-01-11,Europe,HR,Contacted,14,150.64,0.0
+199,Rahul Gupta,rahul.gupta@example.com,+17935554354,WhatsApp Business,2026-03-20,Europe,Retail,New,18,53.87,0.0
+200,Arjun Desai,arjun.desai@example.com,+12789144223,HubSpot,2026-02-24,Europe,Tech,Contacted,12,107.91,0.0
+201,Neha Bose,neha.bose@example.com,+19957643727,Apollo.io,2026-03-06,US,Healthcare,Contacted,27,145.59,0.0
+202,Arjun Tv,arjun.tv@example.com,+918548781344,LinkedIn Sales Navigator,2026-01-16,India,Finance,Converted,11,21.59,6614.131554348352
+203,Arjun Sharma,arjun.sharma@example.com,+917290680473,Meta Ads,2026-01-28,India,Retail,Converted,13,137.06,2889.0353701641066
+204,Amit Kumar,amit.kumar@example.com,+15382302465,WhatsApp Business,2026-03-03,Europe,Retail,Contacted,21,18.37,0.0
+205,Neha Sharma,neha.sharma@example.com,+19045897249,HubSpot,2026-03-13,US,HR,Contacted,23,193.03,0.0
+206,Raj Kumar,raj.kumar@example.com,+917186978937,Apollo.io,2026-02-18,India,HR,Contacted,11,97.68,0.0
+207,Raj Reddy,raj.reddy@example.com,+919730185259,LinkedIn Sales Navigator,2026-01-22,India,Healthcare,New,23,30.14,0.0
+208,Priya Patel,priya.patel@example.com,+16898288854,Meta Ads,2026-03-05,US,Healthcare,Converted,16,68.48,1935.5200597966898
+209,Singh Desai,singh.desai@example.com,+917069759864,WhatsApp Business,2026-03-24,India,Tech,Converted,15,82.68,6722.843489558973
+210,Rahul Bose,rahul.bose@example.com,+918533706498,HubSpot,2026-01-20,India,Tech,Contacted,21,151.64,0.0
+211,Rahul Gupta,rahul.gupta@example.com,+14386667704,Apollo.io,2026-02-03,US,Healthcare,New,28,148.68,0.0
+212,Singh Kumar,singh.kumar@example.com,+12480915452,LinkedIn Sales Navigator,2026-02-15,US,Healthcare,New,15,122.39,0.0
+213,Neha Gupta,neha.gupta@example.com,+13698343112,Meta Ads,2026-03-21,US,Finance,Contacted,25,21.19,0.0
+214,Rahul Sharma,rahul.sharma@example.com,+919499255738,WhatsApp Business,2026-03-19,India,HR,New,4,30.31,0.0
+215,Amit Gupta,amit.gupta@example.com,+12428156550,HubSpot,2026-02-11,US,Tech,Converted,11,18.75,3608.182348278956
+216,Arjun Kumar,arjun.kumar@example.com,+917190420322,Apollo.io,2026-02-20,India,HR,New,19,115.43,0.0
+217,Anita Sharma,anita.sharma@example.com,+918513112872,LinkedIn Sales Navigator,2026-03-02,India,HR,New,15,175.43,0.0
+218,Sonia Kumar,sonia.kumar@example.com,+17640078465,Meta Ads,2026-02-21,US,Healthcare,Converted,4,86.76,3457.3613730093566
+219,Raj Gupta,raj.gupta@example.com,+18281641403,WhatsApp Business,2026-01-10,US,Finance,Contacted,21,32.17,0.0
+220,Raj Sharma,raj.sharma@example.com,+13713284816,HubSpot,2026-01-26,Europe,Retail,New,13,111.61,0.0
+221,Singh Patel,singh.patel@example.com,+14485356009,Apollo.io,2026-01-23,US,Finance,New,22,162.35,0.0
+222,Neha Bose,neha.bose@example.com,+19860949331,LinkedIn Sales Navigator,2026-01-03,US,Finance,New,19,148.34,0.0
+223,Arjun Gupta,arjun.gupta@example.com,+918965718821,Meta Ads,2026-02-07,India,HR,Contacted,2,176.29,0.0
+224,Rahul Sharma,rahul.sharma@example.com,+917158844179,WhatsApp Business,2025-12-28,India,Finance,New,14,55.58,0.0
+225,Rahul Gupta,rahul.gupta@example.com,+918260326267,HubSpot,2026-03-11,India,Tech,Contacted,29,38.79,0.0
+226,Anita Gupta,anita.gupta@example.com,+917865826728,Apollo.io,2026-03-06,India,HR,Converted,4,175.96,6927.446752319508
+227,Sonia Reddy,sonia.reddy@example.com,+15474951950,LinkedIn Sales Navigator,2026-01-24,Other,Tech,New,16,131.51,0.0
+228,Rahul Mehta,rahul.mehta@example.com,+918331765783,Meta Ads,2026-03-11,India,Retail,Converted,21,62.19,2928.561472915086
+229,Priya Bose,priya.bose@example.com,+17508522951,WhatsApp Business,2026-01-23,Europe,HR,Converted,20,148.47,5062.614724561752
+230,Singh Desai,singh.desai@example.com,+17627266377,HubSpot,2025-12-26,US,Retail,New,14,163.02,0.0
+231,Vikram Bose,vikram.bose@example.com,+12087974350,Apollo.io,2026-01-04,Europe,HR,Converted,27,123.0,6433.179773840177
+232,Neha Tv,neha.tv@example.com,+16115750294,LinkedIn Sales Navigator,2026-03-26,US,Healthcare,Contacted,29,137.58,0.0
+233,Priya Kumar,priya.kumar@example.com,+14353689019,Meta Ads,2026-03-16,US,Finance,Converted,15,75.05,5422.778401478119
+234,Arjun Bose,arjun.bose@example.com,+919816344780,WhatsApp Business,2026-01-02,India,Healthcare,Contacted,28,107.74,0.0
+235,Singh Gupta,singh.gupta@example.com,+918425605673,HubSpot,2026-01-24,India,Retail,Contacted,3,104.83,0.0
+236,Arjun Tv,arjun.tv@example.com,+12173456409,Apollo.io,2026-01-03,US,Finance,Contacted,8,169.61,0.0
+237,Raj Mehta,raj.mehta@example.com,+918580630311,LinkedIn Sales Navigator,2025-12-30,India,HR,Converted,16,167.99,5712.967446570201
+238,Sonia Mehta,sonia.mehta@example.com,+918876691885,Meta Ads,2026-02-06,India,Finance,Contacted,10,166.54,0.0
+239,Neha Patel,neha.patel@example.com,+19115282784,WhatsApp Business,2026-01-04,US,Tech,Contacted,4,2.21,0.0
+240,Arjun Desai,arjun.desai@example.com,+918888654461,HubSpot,2026-03-01,India,Finance,Converted,30,149.91,5866.42280906197
+241,Rahul Sharma,rahul.sharma@example.com,+16955593943,Apollo.io,2026-01-25,Other,Tech,New,18,151.74,0.0
+242,Rahul Singh,rahul.singh@example.com,+15182110973,LinkedIn Sales Navigator,2026-01-30,Other,Finance,New,2,135.68,0.0
+243,Anita Singh,anita.singh@example.com,+17431813987,Meta Ads,2026-03-21,Other,Tech,New,17,151.25,0.0
+244,Vikram Sharma,vikram.sharma@example.com,+919230272804,WhatsApp Business,2026-02-26,India,Retail,New,13,168.39,0.0
+245,Raj Singh,raj.singh@example.com,+918145556651,HubSpot,2026-01-22,India,Healthcare,New,4,94.06,0.0
+246,Anita Mehta,anita.mehta@example.com,+14440904834,Apollo.io,2026-03-05,Other,HR,Converted,26,100.41,5452.087529812196
+247,Neha Desai,neha.desai@example.com,+918823212172,LinkedIn Sales Navigator,2026-01-11,India,Finance,New,25,24.94,0.0
+248,Sonia Tv,sonia.tv@example.com,+15633956194,Meta Ads,2026-03-09,Other,Healthcare,Contacted,30,77.08,0.0
+249,Rahul Sharma,rahul.sharma@example.com,+14531928910,WhatsApp Business,2026-03-09,Other,HR,New,11,128.67,0.0
+250,Vikram Gupta,vikram.gupta@example.com,+17637761996,HubSpot,2026-02-24,Europe,HR,Converted,7,156.08,4922.222479476087
+251,Vikram Sharma,vikram.sharma@example.com,+918379592595,Apollo.io,2026-01-26,India,Tech,Converted,12,43.44,4372.794025952949
+252,Anita Reddy,anita.reddy@example.com,+917440654676,LinkedIn Sales Navigator,2026-02-24,India,Retail,Contacted,10,27.56,0.0
+253,Singh Reddy,singh.reddy@example.com,+15638860656,Meta Ads,2026-02-16,Europe,Retail,Converted,7,132.61,5617.909483851172
+254,Rahul Desai,rahul.desai@example.com,+919838626452,WhatsApp Business,2026-01-19,India,Healthcare,New,13,0.38,0.0
+255,Singh Kumar,singh.kumar@example.com,+918269763934,HubSpot,2026-01-07,India,Retail,Converted,7,35.67,3915.79326543109
+256,Sonia Singh,sonia.singh@example.com,+16611356986,Apollo.io,2026-01-07,US,Finance,New,24,5.81,0.0
+257,Arjun Mehta,arjun.mehta@example.com,+12830154607,LinkedIn Sales Navigator,2026-03-20,Other,Retail,Converted,17,33.38,3933.125306475757
+258,Rahul Tv,rahul.tv@example.com,+18257484586,Meta Ads,2026-02-19,US,Healthcare,New,10,36.26,0.0
+259,Amit Gupta,amit.gupta@example.com,+16804850108,WhatsApp Business,2026-02-09,US,Retail,Contacted,29,77.53,0.0
+260,Sonia Patel,sonia.patel@example.com,+917181914018,HubSpot,2026-02-18,India,Finance,Converted,10,80.47,2851.6016454075843
+261,Neha Mehta,neha.mehta@example.com,+19210290540,Apollo.io,2026-02-16,US,Tech,New,24,174.85,0.0
+262,Rahul Sharma,rahul.sharma@example.com,+17163022531,LinkedIn Sales Navigator,2026-02-23,Other,Healthcare,New,4,102.02,0.0
+263,Singh Bose,singh.bose@example.com,+919746499773,Meta Ads,2026-01-01,India,Tech,New,20,144.68,0.0
+264,Amit Patel,amit.patel@example.com,+15071218314,WhatsApp Business,2026-03-22,US,Tech,New,4,20.83,0.0
+265,Neha Reddy,neha.reddy@example.com,+19912233947,HubSpot,2026-03-19,Europe,Tech,Contacted,22,45.09,0.0
+266,Singh Reddy,singh.reddy@example.com,+18033062794,Apollo.io,2026-03-18,US,HR,New,7,140.59,0.0
+267,Anita Sharma,anita.sharma@example.com,+13918046336,LinkedIn Sales Navigator,2026-01-07,US,HR,New,22,10.56,0.0
+268,Amit Sharma,amit.sharma@example.com,+15092199300,Meta Ads,2026-01-02,US,Tech,New,1,97.32,0.0
+269,Rahul Sharma,rahul.sharma@example.com,+917613233132,WhatsApp Business,2026-02-15,India,Healthcare,Converted,12,119.87,6462.0905940763405
+270,Raj Mehta,raj.mehta@example.com,+919609505739,HubSpot,2026-02-07,India,Finance,New,24,120.43,0.0
+271,Neha Reddy,neha.reddy@example.com,+12881937953,Apollo.io,2026-01-08,Europe,Finance,New,13,4.59,0.0
+272,Neha Desai,neha.desai@example.com,+11542153826,LinkedIn Sales Navigator,2026-01-26,Europe,Retail,New,10,64.42,0.0
+273,Rahul Mehta,rahul.mehta@example.com,+18065920767,Meta Ads,2026-01-19,Europe,Healthcare,Contacted,15,127.3,0.0
+274,Amit Mehta,amit.mehta@example.com,+16850392220,WhatsApp Business,2026-01-19,Other,HR,Converted,27,29.8,1229.3571449922567
+275,Sonia Patel,sonia.patel@example.com,+19729028480,HubSpot,2026-03-04,US,Tech,New,13,139.08,0.0
+276,Anita Kumar,anita.kumar@example.com,+16888247736,Apollo.io,2026-02-21,US,Retail,New,23,149.19,0.0
+277,Arjun Reddy,arjun.reddy@example.com,+19920154998,LinkedIn Sales Navigator,2026-01-12,Europe,Finance,Converted,22,196.39,5887.031350729763
+278,Raj Sharma,raj.sharma@example.com,+16871005324,Meta Ads,2026-02-18,US,HR,Converted,22,41.97,6368.773041558757
+279,Neha Desai,neha.desai@example.com,+12196963451,WhatsApp Business,2026-01-18,US,HR,New,21,165.03,0.0
+280,Vikram Reddy,vikram.reddy@example.com,+15125402225,HubSpot,2026-01-30,Europe,Tech,Converted,22,104.06,1814.0190632832112
+281,Neha Tv,neha.tv@example.com,+19701231535,Apollo.io,2026-02-23,Europe,Finance,Converted,28,74.69,3988.29102869362
+282,Neha Gupta,neha.gupta@example.com,+917799070274,LinkedIn Sales Navigator,2026-01-26,India,Healthcare,New,9,24.48,0.0
+283,Arjun Bose,arjun.bose@example.com,+919143377496,Meta Ads,2026-01-04,India,HR,Converted,26,147.1,1569.4915177879077
+284,Rahul Patel,rahul.patel@example.com,+919223699008,WhatsApp Business,2026-02-20,India,Tech,Contacted,9,47.17,0.0
+285,Rahul Reddy,rahul.reddy@example.com,+13412365931,HubSpot,2026-03-06,US,Healthcare,Contacted,15,74.28,0.0
+286,Rahul Singh,rahul.singh@example.com,+918124322241,Apollo.io,2026-01-07,India,Finance,New,10,12.51,0.0
+287,Vikram Reddy,vikram.reddy@example.com,+918117936038,LinkedIn Sales Navigator,2026-01-01,India,HR,New,24,160.27,0.0
+288,Sonia Desai,sonia.desai@example.com,+18318786687,Meta Ads,2026-03-19,US,Healthcare,Converted,26,153.32,6054.159048067182
+289,Rahul Singh,rahul.singh@example.com,+917921572928,WhatsApp Business,2026-03-05,India,Healthcare,Converted,25,146.72,3371.9635922876005
+290,Amit Kumar,amit.kumar@example.com,+13109688769,HubSpot,2025-12-27,US,Healthcare,Contacted,29,59.89,0.0
+291,Arjun Desai,arjun.desai@example.com,+917526723719,Apollo.io,2026-01-06,India,HR,Contacted,10,34.7,0.0
+292,Amit Desai,amit.desai@example.com,+917582949109,LinkedIn Sales Navigator,2026-01-25,India,HR,Contacted,8,127.51,0.0
+293,Singh Singh,singh.singh@example.com,+14662861038,Meta Ads,2026-01-16,Europe,Retail,Contacted,24,99.23,0.0
+294,Rahul Desai,rahul.desai@example.com,+918941508568,WhatsApp Business,2026-02-16,India,Finance,New,16,35.65,0.0
+295,Anita Patel,anita.patel@example.com,+917741553420,HubSpot,2026-02-26,India,Tech,New,17,137.18,0.0
+296,Rahul Tv,rahul.tv@example.com,+19868845806,Apollo.io,2026-02-25,US,Healthcare,Converted,26,198.23,4921.91904660396
+297,Raj Reddy,raj.reddy@example.com,+17623575561,LinkedIn Sales Navigator,2026-01-22,Europe,Retail,New,27,149.44,0.0
+298,Arjun Singh,arjun.singh@example.com,+918288304114,Meta Ads,2026-02-15,India,Tech,Converted,5,148.0,5159.966780174224
+299,Priya Mehta,priya.mehta@example.com,+14656572173,WhatsApp Business,2026-01-02,US,Retail,New,4,190.06,0.0
+300,Priya Reddy,priya.reddy@example.com,+919738900744,HubSpot,2026-01-16,India,HR,New,18,40.59,0.0
+301,Rahul Tv,rahul.tv@example.com,+917747715196,Apollo.io,2026-02-12,India,Healthcare,New,24,113.11,0.0
+302,Raj Desai,raj.desai@example.com,+18703867299,LinkedIn Sales Navigator,2025-12-26,US,Tech,Contacted,19,195.93,0.0
+303,Raj Sharma,raj.sharma@example.com,+13185089287,Meta Ads,2026-02-13,US,Tech,Converted,4,33.06,3677.381784402733
+304,Rahul Gupta,rahul.gupta@example.com,+11596471620,WhatsApp Business,2026-01-28,US,Tech,New,28,140.05,0.0
+305,Vikram Bose,vikram.bose@example.com,+18689593739,HubSpot,2026-02-22,US,Tech,Converted,7,117.16,6342.7807861375795
+306,Anita Sharma,anita.sharma@example.com,+15407856339,Apollo.io,2026-01-31,Other,Tech,Contacted,10,117.3,0.0
+307,Vikram Reddy,vikram.reddy@example.com,+16879428703,LinkedIn Sales Navigator,2026-02-18,US,Retail,Converted,25,139.53,3395.637499216933
+308,Anita Singh,anita.singh@example.com,+919369305560,Meta Ads,2026-03-25,India,Healthcare,New,18,185.92,0.0
+309,Rahul Reddy,rahul.reddy@example.com,+14797809576,WhatsApp Business,2026-03-07,Europe,HR,Converted,19,156.52,861.6327378698431
+310,Singh Bose,singh.bose@example.com,+917282385977,HubSpot,2026-03-20,India,HR,Converted,4,11.23,1357.6382088371433
+311,Priya Kumar,priya.kumar@example.com,+918328393535,Apollo.io,2026-02-26,India,HR,New,10,170.55,0.0
+312,Neha Kumar,neha.kumar@example.com,+918710084067,LinkedIn Sales Navigator,2026-01-14,India,HR,New,1,45.11,0.0
+313,Priya Desai,priya.desai@example.com,+919055850987,Meta Ads,2026-01-19,India,Retail,Converted,23,75.38,3200.2597299902886
+314,Priya Sharma,priya.sharma@example.com,+17552812957,WhatsApp Business,2026-02-01,Other,Finance,Converted,18,92.35,4165.422703141638
+315,Rahul Patel,rahul.patel@example.com,+18598503901,HubSpot,2026-01-22,Europe,Healthcare,New,5,96.18,0.0
+316,Neha Tv,neha.tv@example.com,+11316756902,Apollo.io,2026-01-02,US,Tech,Contacted,15,87.04,0.0
+317,Singh Singh,singh.singh@example.com,+918361623473,LinkedIn Sales Navigator,2026-03-10,India,Finance,Converted,17,187.47,4132.181793491982
+318,Singh Gupta,singh.gupta@example.com,+919758823240,Meta Ads,2026-03-05,India,HR,Converted,3,141.2,4872.990129477901
+319,Vikram Singh,vikram.singh@example.com,+917318536327,WhatsApp Business,2026-01-02,India,Finance,Converted,12,126.23,2503.1021662154826
+320,Anita Patel,anita.patel@example.com,+918932625737,HubSpot,2026-02-04,India,Healthcare,Converted,2,9.97,641.507976305981
+321,Amit Reddy,amit.reddy@example.com,+17517011632,Apollo.io,2026-01-02,US,Tech,Contacted,1,180.78,0.0
+322,Anita Bose,anita.bose@example.com,+13524521602,LinkedIn Sales Navigator,2026-01-01,US,Tech,New,23,181.88,0.0
+323,Raj Patel,raj.patel@example.com,+15849159641,Meta Ads,2026-03-10,US,Healthcare,New,21,156.04,0.0
+324,Raj Sharma,raj.sharma@example.com,+919159783506,WhatsApp Business,2026-02-25,India,Healthcare,Contacted,17,1.41,0.0
+325,Arjun Desai,arjun.desai@example.com,+15952163720,HubSpot,2026-02-28,Other,HR,Contacted,22,11.46,0.0
+326,Arjun Kumar,arjun.kumar@example.com,+11707196784,Apollo.io,2026-03-03,US,Tech,New,16,45.04,0.0
+327,Rahul Bose,rahul.bose@example.com,+14046558332,LinkedIn Sales Navigator,2026-01-15,US,Finance,Converted,5,26.27,2153.971923939481
+328,Raj Kumar,raj.kumar@example.com,+19138644862,Meta Ads,2026-01-02,US,Retail,Contacted,15,79.77,0.0
+329,Rahul Gupta,rahul.gupta@example.com,+917338700713,WhatsApp Business,2026-03-01,India,Retail,Contacted,3,184.52,0.0
+330,Rahul Gupta,rahul.gupta@example.com,+918076341629,HubSpot,2026-01-05,India,Healthcare,Contacted,28,94.41,0.0
+331,Singh Mehta,singh.mehta@example.com,+917843110305,Apollo.io,2026-01-18,India,HR,Contacted,7,2.68,0.0
+332,Neha Reddy,neha.reddy@example.com,+17660813178,LinkedIn Sales Navigator,2026-01-03,Europe,Retail,New,11,56.55,0.0
+333,Raj Sharma,raj.sharma@example.com,+917537602307,Meta Ads,2026-03-12,India,Tech,New,10,8.92,0.0
+334,Rahul Singh,rahul.singh@example.com,+919684450592,WhatsApp Business,2026-01-03,India,Healthcare,New,9,7.26,0.0
+335,Arjun Gupta,arjun.gupta@example.com,+918300621767,HubSpot,2026-03-22,India,Finance,New,14,55.14,0.0
+336,Anita Gupta,anita.gupta@example.com,+919638949369,Apollo.io,2026-01-25,India,Healthcare,Contacted,13,55.12,0.0
+337,Rahul Gupta,rahul.gupta@example.com,+13291270703,LinkedIn Sales Navigator,2026-02-15,Europe,Finance,Contacted,29,157.43,0.0
+338,Amit Desai,amit.desai@example.com,+11662259333,Meta Ads,2026-01-10,US,Healthcare,New,25,194.97,0.0
+339,Rahul Sharma,rahul.sharma@example.com,+919829236141,WhatsApp Business,2026-03-08,India,Healthcare,Converted,30,74.24,519.6005653420767
+340,Amit Desai,amit.desai@example.com,+919682117678,HubSpot,2026-01-26,India,Healthcare,New,25,85.78,0.0
+341,Arjun Singh,arjun.singh@example.com,+919599051823,Apollo.io,2026-03-10,India,Finance,Converted,2,168.96,1916.3585063742341
+342,Arjun Gupta,arjun.gupta@example.com,+918450065086,LinkedIn Sales Navigator,2026-03-12,India,Finance,Converted,3,53.63,974.6919184504725
+343,Neha Tv,neha.tv@example.com,+919420721027,Meta Ads,2025-12-31,India,Healthcare,New,7,31.28,0.0
+344,Anita Gupta,anita.gupta@example.com,+917176928180,WhatsApp Business,2026-03-15,India,Retail,Contacted,21,170.62,0.0
+345,Singh Bose,singh.bose@example.com,+917121863227,HubSpot,2026-01-05,India,HR,New,18,9.3,0.0
+346,Singh Bose,singh.bose@example.com,+11348849508,Apollo.io,2026-02-17,US,HR,Contacted,3,123.94,0.0
+347,Rahul Gupta,rahul.gupta@example.com,+17752277876,LinkedIn Sales Navigator,2026-03-20,US,HR,Contacted,10,112.4,0.0
+348,Amit Bose,amit.bose@example.com,+919654755464,Meta Ads,2026-03-10,India,Finance,New,22,69.18,0.0
+349,Vikram Kumar,vikram.kumar@example.com,+919744446292,WhatsApp Business,2026-03-08,India,Finance,Contacted,29,63.04,0.0
+350,Amit Bose,amit.bose@example.com,+15425044246,HubSpot,2026-03-02,US,Retail,New,7,154.37,0.0
+351,Neha Patel,neha.patel@example.com,+17638204740,Apollo.io,2026-02-04,US,HR,New,9,17.28,0.0
+352,Priya Tv,priya.tv@example.com,+16592451645,LinkedIn Sales Navigator,2026-01-28,Europe,HR,Contacted,17,47.36,0.0
+353,Neha Mehta,neha.mehta@example.com,+17039121410,Meta Ads,2026-01-21,US,Healthcare,New,11,146.49,0.0
+354,Singh Bose,singh.bose@example.com,+918947957237,WhatsApp Business,2026-03-21,India,Finance,Contacted,7,109.66,0.0
+355,Vikram Patel,vikram.patel@example.com,+917313416738,HubSpot,2026-02-04,India,HR,Contacted,24,25.6,0.0
+356,Priya Gupta,priya.gupta@example.com,+13957572769,Apollo.io,2026-01-25,US,Retail,Converted,28,176.43,3254.0330010610637
+357,Vikram Desai,vikram.desai@example.com,+917678950361,LinkedIn Sales Navigator,2026-01-28,India,Retail,New,14,78.69,0.0
+358,Raj Kumar,raj.kumar@example.com,+17183058541,Meta Ads,2026-02-14,US,HR,Contacted,19,165.57,0.0
+359,Raj Reddy,raj.reddy@example.com,+17374810067,WhatsApp Business,2026-01-11,Other,Finance,Contacted,4,157.54,0.0
+360,Vikram Reddy,vikram.reddy@example.com,+16171239466,HubSpot,2026-03-21,US,Retail,New,26,124.89,0.0
+361,Sonia Gupta,sonia.gupta@example.com,+919605585995,Apollo.io,2026-03-18,India,Healthcare,Converted,6,98.9,5052.5017076316435
+362,Raj Gupta,raj.gupta@example.com,+15912019621,LinkedIn Sales Navigator,2026-02-02,US,Retail,Contacted,10,195.91,0.0
+363,Rahul Gupta,rahul.gupta@example.com,+918371453454,Meta Ads,2026-02-22,India,Tech,Contacted,7,28.99,0.0
+364,Vikram Sharma,vikram.sharma@example.com,+18991977937,WhatsApp Business,2026-02-04,US,Tech,Converted,13,145.03,4017.5627765193863
+365,Rahul Sharma,rahul.sharma@example.com,+19484167278,HubSpot,2026-01-04,Other,Finance,Converted,14,38.24,891.6616035609551
+366,Raj Kumar,raj.kumar@example.com,+917561636336,Apollo.io,2025-12-27,India,HR,Converted,4,67.65,6312.419894699934
+367,Anita Reddy,anita.reddy@example.com,+18561998560,LinkedIn Sales Navigator,2026-02-22,Other,Finance,Contacted,8,61.74,0.0
+368,Vikram Sharma,vikram.sharma@example.com,+15751023835,Meta Ads,2026-03-15,Other,Finance,Contacted,5,189.41,0.0
+369,Anita Tv,anita.tv@example.com,+918038256217,WhatsApp Business,2026-03-08,India,Finance,New,1,193.47,0.0
+370,Neha Reddy,neha.reddy@example.com,+919003484425,HubSpot,2026-01-07,India,Finance,New,4,36.6,0.0
+371,Priya Mehta,priya.mehta@example.com,+917526227599,Apollo.io,2026-01-04,India,Healthcare,Contacted,3,4.41,0.0
+372,Vikram Gupta,vikram.gupta@example.com,+918148782098,LinkedIn Sales Navigator,2026-03-04,India,Healthcare,New,9,144.0,0.0
+373,Arjun Desai,arjun.desai@example.com,+918931000173,Meta Ads,2026-01-22,India,Retail,Contacted,8,83.6,0.0
+374,Vikram Sharma,vikram.sharma@example.com,+12064803502,WhatsApp Business,2026-02-28,US,Tech,New,1,17.77,0.0
+375,Amit Mehta,amit.mehta@example.com,+917415802902,HubSpot,2026-01-28,India,Finance,New,27,136.75,0.0
+376,Singh Bose,singh.bose@example.com,+917217348079,Apollo.io,2026-01-11,India,Retail,Converted,6,109.02,6909.8921125348
+377,Sonia Singh,sonia.singh@example.com,+17937993287,LinkedIn Sales Navigator,2026-02-08,Europe,Tech,Converted,9,196.1,3568.4628054967275
+378,Arjun Kumar,arjun.kumar@example.com,+918066312714,Meta Ads,2026-01-03,India,HR,New,7,45.48,0.0
+379,Priya Mehta,priya.mehta@example.com,+14875395503,WhatsApp Business,2026-01-26,Europe,Healthcare,Contacted,4,80.8,0.0
+380,Neha Desai,neha.desai@example.com,+918406326125,HubSpot,2026-02-11,India,Tech,Converted,13,108.51,2366.0895947935805
+381,Priya Patel,priya.patel@example.com,+919481146933,Apollo.io,2026-01-31,India,HR,New,17,158.34,0.0
+382,Singh Tv,singh.tv@example.com,+18392190335,LinkedIn Sales Navigator,2026-01-15,US,Tech,Converted,28,109.77,1669.8786243671057
+383,Neha Mehta,neha.mehta@example.com,+15979337757,Meta Ads,2026-02-20,US,Healthcare,New,2,122.58,0.0
+384,Priya Sharma,priya.sharma@example.com,+17299922974,WhatsApp Business,2026-03-05,Europe,Healthcare,New,28,45.23,0.0
+385,Amit Reddy,amit.reddy@example.com,+19070568519,HubSpot,2026-03-26,US,Retail,Converted,5,169.38,1380.2876321813453
+386,Raj Desai,raj.desai@example.com,+13136189070,Apollo.io,2026-02-02,Europe,Finance,New,12,85.73,0.0
+387,Rahul Singh,rahul.singh@example.com,+917386757895,LinkedIn Sales Navigator,2026-03-14,India,Tech,Contacted,27,28.19,0.0
+388,Sonia Desai,sonia.desai@example.com,+918688962331,Meta Ads,2026-03-19,India,Tech,Converted,21,132.84,4669.912501120316
+389,Arjun Patel,arjun.patel@example.com,+17465834732,WhatsApp Business,2026-03-03,Europe,HR,New,8,43.22,0.0
+390,Anita Sharma,anita.sharma@example.com,+15151887478,HubSpot,2025-12-27,Europe,Healthcare,Contacted,6,19.51,0.0
+391,Rahul Bose,rahul.bose@example.com,+12515672889,Apollo.io,2026-03-21,Other,Tech,Converted,8,172.4,5240.38174523581
+392,Anita Gupta,anita.gupta@example.com,+917217069388,LinkedIn Sales Navigator,2026-03-06,India,Healthcare,New,18,92.03,0.0
+393,Singh Singh,singh.singh@example.com,+918208416260,Meta Ads,2026-02-02,India,Tech,Converted,3,149.86,6764.586685093884
+394,Amit Mehta,amit.mehta@example.com,+17316122432,WhatsApp Business,2026-03-20,Europe,Retail,Contacted,22,58.12,0.0
+395,Rahul Kumar,rahul.kumar@example.com,+919305069227,HubSpot,2026-01-08,India,Finance,Contacted,12,157.39,0.0
+396,Vikram Sharma,vikram.sharma@example.com,+15756663747,Apollo.io,2026-01-12,Other,Tech,Contacted,29,22.39,0.0
+397,Vikram Reddy,vikram.reddy@example.com,+17026930365,LinkedIn Sales Navigator,2026-01-28,Europe,Healthcare,New,26,71.19,0.0
+398,Vikram Tv,vikram.tv@example.com,+917194314620,Meta Ads,2026-01-09,India,Retail,Converted,3,195.61,2933.99598414874
+399,Anita Gupta,anita.gupta@example.com,+12720484983,WhatsApp Business,2026-01-08,Europe,Tech,Converted,22,158.8,6293.668433920424
+400,Amit Sharma,amit.sharma@example.com,+16131005449,HubSpot,2026-03-06,Europe,HR,Contacted,6,99.45,0.0
+401,Rahul Sharma,rahul.sharma@example.com,+919376074389,Apollo.io,2026-01-14,India,Finance,Converted,2,67.96,3415.4913623074576
+402,Amit Bose,amit.bose@example.com,+12239534867,LinkedIn Sales Navigator,2026-01-29,Other,Tech,Contacted,23,174.43,0.0
+403,Singh Tv,singh.tv@example.com,+17656585531,Meta Ads,2026-01-31,US,Retail,Contacted,12,108.97,0.0
+404,Vikram Kumar,vikram.kumar@example.com,+13624410325,WhatsApp Business,2026-03-13,Europe,HR,Contacted,2,151.69,0.0
+405,Raj Bose,raj.bose@example.com,+917552605034,HubSpot,2026-01-21,India,Retail,Contacted,6,150.82,0.0
+406,Amit Sharma,amit.sharma@example.com,+15187948804,Apollo.io,2026-02-07,Europe,Retail,Contacted,17,3.59,0.0
+407,Sonia Kumar,sonia.kumar@example.com,+918691803583,LinkedIn Sales Navigator,2026-01-21,India,HR,Converted,3,25.25,6461.247998431232
+408,Arjun Kumar,arjun.kumar@example.com,+918602874642,Meta Ads,2026-03-23,India,Retail,Contacted,2,131.93,0.0
+409,Amit Singh,amit.singh@example.com,+19327720702,WhatsApp Business,2026-03-17,Other,HR,New,23,32.32,0.0
+410,Raj Bose,raj.bose@example.com,+917619623590,HubSpot,2026-01-28,India,Tech,New,30,51.1,0.0
+411,Singh Gupta,singh.gupta@example.com,+917854947088,Apollo.io,2026-02-28,India,HR,Contacted,20,189.33,0.0
+412,Raj Patel,raj.patel@example.com,+11172893522,LinkedIn Sales Navigator,2026-02-26,Other,HR,Contacted,8,112.04,0.0
+413,Sonia Gupta,sonia.gupta@example.com,+11167134213,Meta Ads,2026-01-27,Other,Finance,Contacted,22,150.15,0.0
+414,Raj Sharma,raj.sharma@example.com,+18359820939,WhatsApp Business,2026-01-01,US,HR,Contacted,12,111.6,0.0
+415,Singh Patel,singh.patel@example.com,+18747974356,HubSpot,2026-01-06,US,HR,Contacted,26,110.5,0.0
+416,Singh Singh,singh.singh@example.com,+919230517007,Apollo.io,2026-03-17,India,Tech,Contacted,4,18.83,0.0
+417,Amit Bose,amit.bose@example.com,+918962750929,LinkedIn Sales Navigator,2026-02-18,India,Finance,New,5,68.73,0.0
+418,Vikram Tv,vikram.tv@example.com,+917639695273,Meta Ads,2026-01-30,India,Healthcare,Contacted,13,56.49,0.0
+419,Raj Gupta,raj.gupta@example.com,+13214080278,WhatsApp Business,2025-12-31,US,Tech,Contacted,29,78.15,0.0
+420,Singh Patel,singh.patel@example.com,+17928074841,HubSpot,2025-12-26,Europe,Tech,Converted,15,159.67,2953.726272595644
+421,Anita Reddy,anita.reddy@example.com,+15992908271,Apollo.io,2026-02-06,Europe,Healthcare,Contacted,25,74.39,0.0
+422,Priya Sharma,priya.sharma@example.com,+17581349462,LinkedIn Sales Navigator,2026-01-11,Europe,HR,New,23,90.34,0.0
+423,Rahul Mehta,rahul.mehta@example.com,+919417741295,Meta Ads,2026-03-17,India,Retail,New,16,79.48,0.0
+424,Vikram Reddy,vikram.reddy@example.com,+918287590685,WhatsApp Business,2026-01-28,India,Finance,New,10,18.68,0.0
+425,Arjun Sharma,arjun.sharma@example.com,+919039648170,HubSpot,2026-01-15,India,Retail,Contacted,30,88.21,0.0
+426,Rahul Reddy,rahul.reddy@example.com,+14503614567,Apollo.io,2026-02-20,US,Healthcare,New,30,39.12,0.0
+427,Amit Bose,amit.bose@example.com,+918582084743,LinkedIn Sales Navigator,2026-03-06,India,Tech,Contacted,25,37.34,0.0
+428,Singh Reddy,singh.reddy@example.com,+13702653209,Meta Ads,2026-03-26,Europe,Tech,Contacted,23,18.81,0.0
+429,Neha Mehta,neha.mehta@example.com,+919563707272,WhatsApp Business,2026-02-18,India,Finance,New,16,71.33,0.0
+430,Singh Tv,singh.tv@example.com,+919038349447,HubSpot,2026-03-07,India,Tech,Contacted,12,151.5,0.0
+431,Rahul Desai,rahul.desai@example.com,+918140444523,Apollo.io,2025-12-27,India,Tech,New,17,55.29,0.0
+432,Anita Sharma,anita.sharma@example.com,+13480920839,LinkedIn Sales Navigator,2026-01-09,Europe,Finance,Contacted,16,62.47,0.0
+433,Rahul Mehta,rahul.mehta@example.com,+14098389895,Meta Ads,2026-01-04,US,Finance,New,12,128.53,0.0
+434,Priya Sharma,priya.sharma@example.com,+919506213395,WhatsApp Business,2026-03-24,India,Healthcare,Converted,8,39.17,1021.6249520908837
+435,Vikram Bose,vikram.bose@example.com,+919063511828,HubSpot,2026-01-14,India,Tech,New,20,179.39,0.0
+436,Raj Sharma,raj.sharma@example.com,+18907752604,Apollo.io,2026-03-05,US,Tech,Converted,3,104.04,6766.938446474459
+437,Raj Gupta,raj.gupta@example.com,+917634691836,LinkedIn Sales Navigator,2025-12-30,India,Healthcare,Contacted,16,89.52,0.0
+438,Arjun Bose,arjun.bose@example.com,+12040226318,Meta Ads,2026-02-11,Europe,HR,Converted,30,111.56,6184.599190991012
+439,Sonia Singh,sonia.singh@example.com,+14008714405,WhatsApp Business,2026-03-10,US,HR,Contacted,13,33.21,0.0
+440,Anita Bose,anita.bose@example.com,+917819412471,HubSpot,2026-03-06,India,HR,Contacted,23,122.69,0.0
+441,Sonia Gupta,sonia.gupta@example.com,+917081335390,Apollo.io,2026-01-13,India,Healthcare,Converted,28,72.62,1364.433741181877
+442,Rahul Reddy,rahul.reddy@example.com,+17189213526,LinkedIn Sales Navigator,2026-02-19,Other,Tech,Contacted,19,179.44,0.0
+443,Arjun Desai,arjun.desai@example.com,+918798647685,Meta Ads,2026-01-11,India,Healthcare,Contacted,8,33.77,0.0
+444,Priya Sharma,priya.sharma@example.com,+917650392310,WhatsApp Business,2025-12-31,India,Healthcare,Contacted,22,101.41,0.0
+445,Sonia Kumar,sonia.kumar@example.com,+16170675398,HubSpot,2026-02-03,Europe,HR,Contacted,5,119.62,0.0
+446,Anita Mehta,anita.mehta@example.com,+14124168227,Apollo.io,2026-02-10,Other,Retail,New,20,6.68,0.0
+447,Amit Desai,amit.desai@example.com,+14031281545,LinkedIn Sales Navigator,2025-12-31,Other,Tech,New,8,72.74,0.0
+448,Vikram Mehta,vikram.mehta@example.com,+13227727430,Meta Ads,2026-02-09,Europe,HR,Contacted,24,146.53,0.0
+449,Anita Desai,anita.desai@example.com,+919408990341,WhatsApp Business,2026-01-21,India,Retail,Contacted,12,164.08,0.0
+450,Priya Singh,priya.singh@example.com,+918396077115,HubSpot,2026-03-23,India,Retail,Converted,1,62.63,6091.862777326288
+451,Anita Singh,anita.singh@example.com,+16913417379,Apollo.io,2026-01-26,Europe,Finance,Contacted,25,159.72,0.0
+452,Neha Singh,neha.singh@example.com,+15108932916,LinkedIn Sales Navigator,2026-03-21,US,Tech,Converted,30,193.55,1271.1155873542916
+453,Raj Mehta,raj.mehta@example.com,+918974239820,Meta Ads,2026-01-08,India,Retail,New,21,171.37,0.0
+454,Priya Sharma,priya.sharma@example.com,+18272725281,WhatsApp Business,2026-02-09,Other,HR,New,20,23.53,0.0
+455,Priya Sharma,priya.sharma@example.com,+919620258967,HubSpot,2026-03-07,India,Finance,New,6,147.95,0.0
+456,Anita Sharma,anita.sharma@example.com,+919079537716,Apollo.io,2026-02-16,India,Tech,Contacted,22,63.93,0.0
+457,Vikram Patel,vikram.patel@example.com,+917825768309,LinkedIn Sales Navigator,2026-03-15,India,Healthcare,Converted,18,197.68,6953.504044504315
+458,Sonia Tv,sonia.tv@example.com,+918058791632,Meta Ads,2026-01-14,India,HR,New,8,97.07,0.0
+459,Arjun Reddy,arjun.reddy@example.com,+918198323340,WhatsApp Business,2026-01-25,India,Retail,Converted,7,24.49,3054.881106596265
+460,Sonia Singh,sonia.singh@example.com,+919396963917,HubSpot,2026-01-15,India,Retail,Contacted,1,145.04,0.0
+461,Priya Desai,priya.desai@example.com,+918282044148,Apollo.io,2026-01-17,India,HR,Contacted,21,64.6,0.0
+462,Vikram Desai,vikram.desai@example.com,+18322868827,LinkedIn Sales Navigator,2026-02-16,US,Retail,Contacted,16,199.42,0.0
+463,Singh Gupta,singh.gupta@example.com,+16656646925,Meta Ads,2025-12-29,US,Finance,New,12,195.96,0.0
+464,Arjun Gupta,arjun.gupta@example.com,+16469458472,WhatsApp Business,2026-01-17,US,Tech,Contacted,6,131.23,0.0
+465,Vikram Sharma,vikram.sharma@example.com,+19504724761,HubSpot,2026-02-06,Other,Finance,Contacted,20,25.97,0.0
+466,Arjun Reddy,arjun.reddy@example.com,+918482342139,Apollo.io,2026-02-16,India,Retail,New,2,137.37,0.0
+467,Amit Patel,amit.patel@example.com,+917629110165,LinkedIn Sales Navigator,2026-03-21,India,Healthcare,Contacted,29,18.61,0.0
+468,Rahul Kumar,rahul.kumar@example.com,+12247484671,Meta Ads,2026-01-26,Europe,Tech,New,14,5.87,0.0
+469,Priya Singh,priya.singh@example.com,+918235362881,WhatsApp Business,2026-01-29,India,Tech,Contacted,4,164.59,0.0
+470,Sonia Singh,sonia.singh@example.com,+15634396131,HubSpot,2026-01-15,Other,HR,Contacted,1,41.95,0.0
+471,Priya Gupta,priya.gupta@example.com,+918899990924,Apollo.io,2026-03-25,India,HR,Contacted,23,75.81,0.0
+472,Arjun Kumar,arjun.kumar@example.com,+18112345816,LinkedIn Sales Navigator,2026-01-08,Other,Healthcare,Contacted,18,194.69,0.0
+473,Anita Reddy,anita.reddy@example.com,+919057629778,Meta Ads,2026-02-12,India,Tech,New,13,67.37,0.0
+474,Arjun Bose,arjun.bose@example.com,+11919066362,WhatsApp Business,2025-12-30,Europe,Healthcare,Contacted,2,59.3,0.0
+475,Sonia Tv,sonia.tv@example.com,+12166605339,HubSpot,2026-02-24,US,HR,New,9,183.64,0.0
+476,Arjun Gupta,arjun.gupta@example.com,+12027708670,Apollo.io,2026-01-23,Other,HR,New,21,22.15,0.0
+477,Singh Patel,singh.patel@example.com,+917218035843,LinkedIn Sales Navigator,2026-01-20,India,Tech,Converted,2,151.92,1327.7560675969557
+478,Neha Gupta,neha.gupta@example.com,+13280805846,Meta Ads,2026-02-22,US,Finance,New,27,197.61,0.0
+479,Vikram Singh,vikram.singh@example.com,+13739951076,WhatsApp Business,2026-02-08,Other,Retail,Contacted,25,180.26,0.0
+480,Singh Patel,singh.patel@example.com,+11225447588,HubSpot,2026-02-03,US,HR,Contacted,9,130.33,0.0
+481,Raj Bose,raj.bose@example.com,+17070083150,Apollo.io,2026-01-24,US,HR,New,1,62.81,0.0
+482,Anita Sharma,anita.sharma@example.com,+18375996697,LinkedIn Sales Navigator,2026-01-23,US,Finance,New,11,50.86,0.0
+483,Raj Tv,raj.tv@example.com,+917431837075,Meta Ads,2025-12-29,India,Finance,New,3,163.85,0.0
+484,Priya Reddy,priya.reddy@example.com,+11590416424,WhatsApp Business,2026-03-20,US,Healthcare,Converted,20,175.96,6861.7084506711835
+485,Amit Desai,amit.desai@example.com,+15973319056,HubSpot,2026-01-19,US,Healthcare,Contacted,30,105.09,0.0
+486,Anita Mehta,anita.mehta@example.com,+17338081696,Apollo.io,2026-02-15,Other,Retail,New,23,48.87,0.0
+487,Vikram Patel,vikram.patel@example.com,+919794042404,LinkedIn Sales Navigator,2026-02-06,India,Retail,Contacted,26,22.59,0.0
+488,Vikram Gupta,vikram.gupta@example.com,+917856656865,Meta Ads,2026-01-30,India,Tech,Contacted,4,17.44,0.0
+489,Vikram Bose,vikram.bose@example.com,+16528675352,WhatsApp Business,2026-01-03,Other,Healthcare,New,18,143.82,0.0
+490,Arjun Sharma,arjun.sharma@example.com,+14301648719,HubSpot,2026-01-30,Europe,HR,Contacted,23,84.02,0.0
+491,Singh Patel,singh.patel@example.com,+919801601713,Apollo.io,2026-02-08,India,Healthcare,Contacted,6,181.07,0.0
+492,Raj Bose,raj.bose@example.com,+13465883999,LinkedIn Sales Navigator,2026-03-18,US,HR,Converted,3,147.93,5926.34047584665
+493,Singh Sharma,singh.sharma@example.com,+919298461504,Meta Ads,2026-03-01,India,Finance,New,22,38.25,0.0
+494,Neha Mehta,neha.mehta@example.com,+917160194739,WhatsApp Business,2026-02-15,India,Healthcare,New,11,122.76,0.0
+495,Anita Mehta,anita.mehta@example.com,+917751897503,HubSpot,2026-03-22,India,Finance,New,15,87.1,0.0
+496,Arjun Mehta,arjun.mehta@example.com,+918794802316,Apollo.io,2026-03-04,India,Retail,Contacted,22,115.45,0.0
+497,Anita Gupta,anita.gupta@example.com,+14949801453,LinkedIn Sales Navigator,2026-02-06,US,Retail,New,28,147.61,0.0
+498,Amit Reddy,amit.reddy@example.com,+918705078697,Meta Ads,2025-12-29,India,Tech,Contacted,5,161.24,0.0
+499,Priya Singh,priya.singh@example.com,+18679232444,WhatsApp Business,2026-01-09,Other,Healthcare,Converted,20,168.75,5415.166196583059
+500,Anita Sharma,anita.sharma@example.com,+11160916026,HubSpot,2026-01-28,Other,Finance,Contacted,10,50.79,0.0
