@@ -13,6 +13,11 @@ st.title("🚀 Team 1 Lead Dashboard")
 uploaded = st.file_uploader("📁 Upload CSV", type="csv")
 if uploaded:
     df = pd.read_csv(uploaded)
+    required_cols = ["Source", "Status", "Region", "Industry", "Date", "Revenue", "Ad_Spend", "Follow_up_Days"]
+    if not all(col in df.columns for col in required_cols):
+        st.error(f"CSV must have columns: {', '.join(required_cols)}")
+        st.stop()
+
     st.success(f"✅ {len(df)} leads!")
 
     st.sidebar.header("Filters")
