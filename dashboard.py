@@ -2,66 +2,202 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(
-    page_title="Team 1 Dashboard",
-    layout="wide",
-    initial_sidebar_state="expanded",
-)
+# ================= PAGE =================
+st.set_page_config(page_title="Lead Intelligence Pro", layout="wide")
 
-st.title("🚀 Team 1 Lead Dashboard")
+# ================= STYLE =================
+st.markdown("""
+<style>
+.main {background: #0b1220;}
+h1, h2, h3 {color: white;}
+</style>
+""", unsafe_allow_html=True)
 
-uploaded = st.file_uploader("📁 Upload CSV", type="csv")
-if uploaded:
-    df = pd.read_csv(uploaded)
-    required_cols = ["Source", "Status", "Region", "Industry", "Date", "Revenue", "Ad_Spend", "Follow_up_Days"]
-    if not all(col in df.columns for col in required_cols):
-        st.error(f"CSV must have columns: {', '.join(required_cols)}")
-        st.stop()
+# ================= LOAD FUNCTION =================
+@st.cache_data
+def load(file):
+    df = pd.read_csv(file) if file.name.endswith("csv") else pd.read_excel(file)
 
-    st.success(f"✅ {len(df)} leads!")
+    status = next((c for c in df.columns if "status" in c.lower()), None)
+    source = next((c for c in df.columns if "source" in c.lower()), None)
+    revenue = next((c for c in df.columns if "rev" in c.lower() or "amount" in c.lower()), None)
+    date = next((c for c in df.columns if "date" in c.lower()), None)
+    cost = next((c for c in df.columns if "cost" in c.lower() or "spend" in c.lower()), None)
 
-    st.sidebar.header("Filters")
-    source_f = st.sidebar.multiselect("Source", sorted(df["Source"].dropna().unique()))
-    status_f = st.sidebar.multiselect("Status", sorted(df["Status"].dropna().unique()))
-    region_f = st.sidebar.multiselect("Region", sorted(df["Region"].dropna().unique()))
-    industry_f = st.sidebar.multiselect("Industry", sorted(df["Industry"].dropna().unique()))
+    if date:
+        df[date] = pd.to_datetime(df[date], errors='coerce')
 
-    all_true = pd.Series(True, index=df.index)
-    mask_source = df["Source"].isin(source_f) if source_f else all_true
-    mask_status = df["Status"].isin(status_f) if status_f else all_true
-    mask_region = df["Region"].isin(region_f) if region_f else all_true
-    mask_industry = df["Industry"].isin(industry_f) if industry_f else all_true
-    filtered = df[mask_source & mask_status & mask_region & mask_industry]
+    return df, status, source, revenue, date, cost
 
-    total = len(filtered)
-    converted = len(filtered[filtered["Status"] == "Converted"])
-    revenue = filtered["Revenue"].sum() if total else 0
-    spend = filtered["Ad_Spend"].sum() if total else 0
-    days = filtered["Follow_up_Days"].mean() if total else 0
-    conv_rate = f"{converted / total * 100:.1f}%" if total else "0%"
+# ================= APP =================
+st.title("🚀 Lead Intelligence Pro Dashboard")
 
-    c1, c2, c3, c4, c5, c6 = st.columns(6)
-    c1.metric("📊 Total", total)
-    c2.metric("✅ Converted", converted)
-    c3.metric("💰 Revenue", f"${revenue:,.0f}")
-    c4.metric("💸 Spend", f"${spend:,.0f}")
-    c5.metric("📈 Conv%", conv_rate)
-    c6.metric("⏱️ Days", f"{days:.1f}")
+file = st.file_uploader("Upload Dataset", type=["csv", "xlsx"])
 
-    r1, r2, r3 = st.columns(3)
-    source_counts = (
-        filtered["Source"]
-        .value_counts()
-        .reset_index(name="count")
-        .rename(columns={"index": "Source"})
+if file:
+    df, status_col, source_col, rev_col, date_col, cost_col = load(file)
+
+    # ================= KPIs =================
+    total = len(df)
+
+    if status_col:
+        converted_df = df[df[status_col].astype(str).str.lower() == "won"]
+        converted = len(converted_df)
+    else:
+        converted = 0
+
+    revenue = df[rev_col].sum() if rev_col else 0
+    cost = df[cost_col].sum() if cost_col else 0
+
+    conv_rate = (converted / total * 100) if total else 0
+    cpl = (cost / total) if cost else 0
+    cpa = (cost / converted) if converted else 0
+    roi = ((revenue - cost) / cost * 100) if cost else 0
+
+    c1, c2, c3, c4, c5 = st.columns(5)
+
+    c1.metric("Leads", total)
+    c2.metric("Conversion %", f"{conv_rate:.1f}%")
+    c3.metric("Revenue", f"${revenue:,.0f}")
+    c4.metric("CPL", f"${cpl:.2f}")
+    c5.metric("ROI", f"{roi:.1f}%")
+
+    st.divider()
+
+    # ================= CHART SELECTOR =================
+    chart_type = st.selectbox(
+        "📊 Select Chart Type",
+        ["Pie", "Bar", "Line"]
     )
-    r1.plotly_chart(px.bar(source_counts, x="Source", y="count", title="Sources"))
-    r2.plotly_chart(px.pie(filtered, names="Status", title="Status"))
-    r3.plotly_chart(px.bar(filtered.groupby("Region")["Revenue"].sum().reset_index(), x="Region", y="Revenue", title="Revenue by Region"))
 
-    st.plotly_chart(px.line(filtered.sort_values("Date"), x="Date", y="Revenue", title="Revenue Over Time"))
-    st.download_button("💾 Export", filtered.to_csv(index=False), "leads.csv", mime="text/csv")
-    st.dataframe(filtered)
-else:
-    st.info("Upload a CSV to view dashboard and apply sidebar filters.")
-    "Add column validation to prevent KeyError"
+    # ================= CHARTS =================
+    col1, col2, col3 = st.columns(3)
+
+    # 🥧 Leads by Source
+    if source_col:
+        with col1:
+            st.subheader("Leads by Source")
+            lead_dist = df[source_col].value_counts().reset_index()
+            lead_dist.columns = [source_col, "Leads"]
+
+            if chart_type == "Pie":
+                fig = px.pie(lead_dist, names=source_col, values="Leads", hole=0.4, template="plotly_dark")
+            elif chart_type == "Bar":
+                fig = px.bar(lead_dist, x=source_col, y="Leads", template="plotly_dark")
+            else:
+                fig = px.line(lead_dist, x=source_col, y="Leads", markers=True, template="plotly_dark")
+
+            st.plotly_chart(fig, use_container_width=True)
+
+    # 💰 Revenue Share
+    if source_col and rev_col:
+        with col2:
+            st.subheader("Revenue Share")
+            rev_data = df.groupby(source_col)[rev_col].sum().reset_index()
+
+            if chart_type == "Pie":
+                fig = px.pie(rev_data, names=source_col, values=rev_col, hole=0.4, template="plotly_dark")
+            elif chart_type == "Bar":
+                fig = px.bar(rev_data, x=source_col, y=rev_col, template="plotly_dark")
+            else:
+                fig = px.line(rev_data, x=source_col, y=rev_col, markers=True, template="plotly_dark")
+
+            st.plotly_chart(fig, use_container_width=True)
+
+    # 🎯 Status Distribution
+    if status_col:
+        with col3:
+            st.subheader("Lead Status")
+            status_data = df[status_col].value_counts().reset_index()
+            status_data.columns = ["Status", "Count"]
+
+            if chart_type == "Pie":
+                fig = px.pie(status_data, names="Status", values="Count", hole=0.4, template="plotly_dark")
+            elif chart_type == "Bar":
+                fig = px.bar(status_data, x="Status", y="Count", template="plotly_dark")
+            else:
+                fig = px.line(status_data, x="Status", y="Count", markers=True, template="plotly_dark")
+
+            st.plotly_chart(fig, use_container_width=True)
+
+    st.divider()
+
+    # ================= FUNNEL =================
+    if status_col:
+        st.subheader("🎯 Funnel Analysis")
+
+        funnel = df[status_col].value_counts().reset_index()
+        funnel.columns = ["Stage", "Count"]
+
+        funnel["Drop %"] = funnel["Count"].pct_change().fillna(0) * -100
+
+        st.dataframe(funnel)
+
+        fig = px.funnel(funnel, x="Count", y="Stage", template="plotly_dark")
+        st.plotly_chart(fig, use_container_width=True)
+
+        if len(funnel) > 1:
+            biggest_drop = funnel.iloc[funnel["Drop %"].idxmax()]
+            st.error(f"🚨 Biggest drop at {biggest_drop['Stage']} ({biggest_drop['Drop %']:.1f}%)")
+
+    # ================= TREND =================
+    if date_col:
+        st.subheader("📈 Lead Trend")
+
+        trend = df.groupby(df[date_col].dt.date).size().reset_index(name="Leads")
+        trend["7D Avg"] = trend["Leads"].rolling(7).mean()
+
+        fig = px.line(trend, x=date_col, y="Leads", template="plotly_dark")
+        fig.add_scatter(x=trend[date_col], y=trend["7D Avg"], mode='lines', name="7D Avg")
+
+        st.plotly_chart(fig, use_container_width=True)
+
+    # ================= INSIGHTS =================
+    st.subheader("🧠 Business Insights")
+
+    insights = []
+
+    if source_col and status_col:
+        perf = df.groupby(source_col).agg(
+            leads=(source_col, "count"),
+            conversions=(status_col, lambda x: x.astype(str).str.lower().eq("won").sum())
+        ).reset_index()
+
+        perf["conv_rate"] = perf["conversions"] / perf["leads"]
+
+        best = perf.sort_values("conv_rate", ascending=False).iloc[0]
+        worst = perf.sort_values("conv_rate").iloc[0]
+
+        insights.append(f"🔥 Best channel: {best[source_col]} ({best['conv_rate']*100:.1f}%)")
+        insights.append(f"❌ Worst channel: {worst[source_col]}")
+
+    if roi:
+        if roi < 0:
+            insights.append("🚨 Campaign is losing money")
+        elif roi > 100:
+            insights.append("💰 High ROI — scale aggressively")
+
+    if cpl > 50:
+        insights.append("⚠️ High cost per lead — optimize ads")
+
+    for i in insights:
+        st.success(i)
+
+    # ================= ACTIONS =================
+    st.subheader("📌 Recommended Actions")
+
+    actions = []
+
+    if roi < 50:
+        actions.append("Reduce spend on low ROI channels")
+    if conv_rate < 20:
+        actions.append("Improve conversion funnel")
+    if source_col and status_col:
+        actions.append(f"Scale {best[source_col]} channel")
+
+    for a in actions:
+        st.info(a)
+
+    # ================= DATA =================
+    with st.expander("📂 Raw Data"):
+        st.dataframe(df)
