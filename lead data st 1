@@ -1,0 +1,1001 @@
+Lead_ID,Client_Name,Industry,Region,Lead_Source,Revenue,Status,Follow_Up_Time
+L0001,Client_1,Retail,East,Referral,19352.47,Not Converted,68.5
+L0002,Client_2,Manufacturing,East,Social Media,30334.27,Converted,12.1
+L0003,Client_3,Retail,North,Email Campaign,3846.1,Not Converted,62.5
+L0004,Client_4,Technology,South,Website,35695.56,Not Converted,2.5
+L0005,Client_5,Retail,West,Cold Call,41789.69,Converted,16.1
+L0006,Client_6,Technology,West,Referral,9986.82,Converted,22.6
+L0007,Client_7,Finance,South,Email Campaign,22165.31,Converted,21.7
+L0008,Client_8,Healthcare,West,Cold Call,7835.2,Converted,21.7
+L0009,Client_9,Manufacturing,West,Email Campaign,23347.43,Converted,56.7
+L0010,Client_10,Manufacturing,East,Referral,26197.49,Converted,43.1
+L0011,Client_11,Retail,North,Referral,30769.7,Converted,13.1
+L0012,Client_12,Healthcare,East,Website,47495.39,Not Converted,69.6
+L0013,Client_13,Manufacturing,East,Referral,15926.07,Converted,7.9
+L0014,Client_14,Healthcare,East,Email Campaign,22567.47,Converted,9.7
+L0015,Client_15,Healthcare,South,Email Campaign,2685.04,Converted,65.6
+L0016,Client_16,Healthcare,South,Cold Call,33463.59,Converted,23.1
+L0017,Client_17,Healthcare,East,Cold Call,27788.8,Not Converted,14.1
+L0018,Client_18,Healthcare,West,Website,38981.51,Not Converted,67.7
+L0019,Client_19,Healthcare,West,Cold Call,30297.1,Converted,66.5
+L0020,Client_20,Retail,East,Social Media,10603.16,Converted,4.2
+L0021,Client_21,Technology,North,Email Campaign,20045.19,Converted,20.3
+L0022,Client_22,Technology,East,Cold Call,18480.91,Converted,20.9
+L0023,Client_23,Retail,West,Email Campaign,7905.29,Converted,58.0
+L0024,Client_24,Retail,South,Social Media,49357.46,Converted,55.8
+L0025,Client_25,Manufacturing,West,Email Campaign,1270.58,Not Converted,58.9
+L0026,Client_26,Retail,North,Email Campaign,36721.35,Converted,55.8
+L0027,Client_27,Retail,North,Email Campaign,18564.82,Not Converted,9.2
+L0028,Client_28,Finance,West,Social Media,31541.61,Converted,24.5
+L0029,Client_29,Retail,North,Email Campaign,16238.13,Not Converted,24.1
+L0030,Client_30,Healthcare,North,Website,32240.32,Converted,64.0
+L0031,Client_31,Retail,East,Cold Call,6860.12,Not Converted,51.6
+L0032,Client_32,Retail,North,Cold Call,28502.58,Converted,55.7
+L0033,Client_33,Healthcare,East,Cold Call,26613.91,Converted,31.4
+L0034,Client_34,Finance,East,Referral,6286.68,Converted,3.2
+L0035,Client_35,Technology,West,Social Media,16403.44,Not Converted,37.1
+L0036,Client_36,Finance,West,Social Media,13215.32,Not Converted,30.1
+L0037,Client_37,Healthcare,East,Referral,12211.11,Converted,6.5
+L0038,Client_38,Technology,West,Website,8899.84,Not Converted,67.0
+L0039,Client_39,Healthcare,West,Cold Call,32036.78,Not Converted,62.9
+L0040,Client_40,Finance,North,Email Campaign,10141.93,Not Converted,64.4
+L0041,Client_41,Technology,East,Website,40564.57,Converted,64.6
+L0042,Client_42,Finance,South,Email Campaign,6392.54,Converted,17.2
+L0043,Client_43,Finance,South,Referral,41082.72,Converted,62.1
+L0044,Client_44,Healthcare,West,Cold Call,26026.62,Converted,30.6
+L0045,Client_45,Healthcare,South,Referral,6873.4,Not Converted,25.0
+L0046,Client_46,Finance,East,Referral,16836.94,Not Converted,37.8
+L0047,Client_47,Retail,South,Referral,18817.85,Not Converted,70.0
+L0048,Client_48,Finance,East,Referral,13337.33,Not Converted,36.3
+L0049,Client_49,Healthcare,West,Referral,14957.18,Converted,3.6
+L0050,Client_50,Technology,South,Social Media,25631.27,Converted,4.7
+L0051,Client_51,Healthcare,South,Social Media,45505.03,Converted,18.0
+L0052,Client_52,Manufacturing,East,Cold Call,24983.19,Converted,71.0
+L0053,Client_53,Finance,North,Cold Call,33934.64,Converted,55.1
+L0054,Client_54,Manufacturing,South,Website,36682.6,Not Converted,27.1
+L0055,Client_55,Technology,East,Email Campaign,32042.96,Converted,39.0
+L0056,Client_56,Healthcare,South,Email Campaign,41929.82,Converted,23.8
+L0057,Client_57,Finance,South,Referral,2997.98,Not Converted,43.0
+L0058,Client_58,Retail,North,Email Campaign,1812.8,Converted,37.4
+L0059,Client_59,Technology,West,Referral,32613.47,Converted,13.4
+L0060,Client_60,Manufacturing,East,Website,19950.03,Converted,67.5
+L0061,Client_61,Healthcare,East,Email Campaign,17712.25,Not Converted,9.1
+L0062,Client_62,Retail,North,Website,43989.63,Converted,19.3
+L0063,Client_63,Finance,North,Cold Call,41043.89,Not Converted,40.4
+L0064,Client_64,Finance,West,Email Campaign,12850.76,Not Converted,7.6
+L0065,Client_65,Finance,East,Website,45120.48,Converted,46.0
+L0066,Client_66,Manufacturing,East,Social Media,18111.27,Not Converted,52.5
+L0067,Client_67,Healthcare,South,Cold Call,44467.23,Not Converted,56.4
+L0068,Client_68,Technology,South,Referral,5122.86,Not Converted,12.5
+L0069,Client_69,Technology,South,Referral,30715.02,Converted,1.7
+L0070,Client_70,Finance,East,Website,33511.59,Converted,1.4
+L0071,Client_71,Finance,South,Cold Call,27887.96,Not Converted,50.1
+L0072,Client_72,Healthcare,South,Website,11989.2,Converted,51.6
+L0073,Client_73,Technology,North,Social Media,16944.59,Not Converted,54.0
+L0074,Client_74,Healthcare,South,Email Campaign,42611.95,Not Converted,47.7
+L0075,Client_75,Technology,West,Referral,5590.06,Converted,27.1
+L0076,Client_76,Manufacturing,East,Website,12955.49,Not Converted,70.1
+L0077,Client_77,Retail,West,Social Media,44710.28,Not Converted,45.8
+L0078,Client_78,Healthcare,West,Social Media,25629.22,Converted,42.0
+L0079,Client_79,Manufacturing,South,Social Media,10566.91,Converted,52.3
+L0080,Client_80,Manufacturing,South,Social Media,2191.48,Converted,46.8
+L0081,Client_81,Technology,West,Referral,47082.47,Not Converted,68.7
+L0082,Client_82,Manufacturing,West,Cold Call,19137.78,Not Converted,2.1
+L0083,Client_83,Manufacturing,North,Email Campaign,21981.02,Not Converted,69.6
+L0084,Client_84,Finance,West,Social Media,42797.46,Converted,21.9
+L0085,Client_85,Manufacturing,North,Social Media,42705.7,Converted,23.5
+L0086,Client_86,Retail,East,Referral,28283.26,Not Converted,67.5
+L0087,Client_87,Healthcare,East,Cold Call,28933.0,Converted,7.9
+L0088,Client_88,Healthcare,South,Social Media,49512.64,Converted,10.9
+L0089,Client_89,Healthcare,East,Email Campaign,43991.28,Not Converted,53.6
+L0090,Client_90,Retail,West,Cold Call,35421.72,Converted,26.5
+L0091,Client_91,Finance,North,Referral,40658.7,Not Converted,58.5
+L0092,Client_92,Technology,South,Referral,45748.79,Not Converted,37.3
+L0093,Client_93,Retail,North,Email Campaign,40116.46,Not Converted,47.1
+L0094,Client_94,Healthcare,North,Website,39993.84,Converted,64.2
+L0095,Client_95,Finance,North,Referral,19403.56,Converted,7.7
+L0096,Client_96,Retail,South,Email Campaign,2761.17,Not Converted,34.1
+L0097,Client_97,Manufacturing,West,Cold Call,15040.52,Converted,42.9
+L0098,Client_98,Retail,West,Referral,2830.06,Not Converted,59.4
+L0099,Client_99,Retail,East,Referral,7225.97,Not Converted,38.1
+L0100,Client_100,Retail,West,Email Campaign,11575.23,Converted,45.2
+L0101,Client_101,Retail,North,Cold Call,3532.4,Not Converted,38.7
+L0102,Client_102,Manufacturing,East,Social Media,32234.07,Not Converted,52.6
+L0103,Client_103,Retail,North,Website,26298.72,Converted,23.9
+L0104,Client_104,Healthcare,North,Email Campaign,14270.78,Converted,32.2
+L0105,Client_105,Manufacturing,North,Cold Call,2242.19,Not Converted,69.3
+L0106,Client_106,Finance,North,Referral,35102.74,Converted,30.0
+L0107,Client_107,Finance,West,Email Campaign,8665.42,Converted,18.8
+L0108,Client_108,Healthcare,West,Email Campaign,36015.2,Converted,47.9
+L0109,Client_109,Retail,East,Email Campaign,47788.4,Not Converted,53.4
+L0110,Client_110,Manufacturing,North,Social Media,30974.32,Converted,30.8
+L0111,Client_111,Manufacturing,South,Cold Call,18442.66,Converted,54.8
+L0112,Client_112,Healthcare,East,Referral,6687.56,Converted,4.3
+L0113,Client_113,Technology,East,Referral,42917.57,Converted,51.0
+L0114,Client_114,Manufacturing,South,Cold Call,5793.87,Not Converted,35.9
+L0115,Client_115,Healthcare,East,Social Media,9486.89,Not Converted,31.8
+L0116,Client_116,Manufacturing,West,Website,31176.65,Converted,46.1
+L0117,Client_117,Manufacturing,South,Email Campaign,19356.02,Not Converted,45.4
+L0118,Client_118,Retail,West,Cold Call,42968.0,Converted,47.8
+L0119,Client_119,Healthcare,South,Cold Call,4457.87,Converted,46.6
+L0120,Client_120,Manufacturing,West,Email Campaign,29703.0,Not Converted,67.8
+L0121,Client_121,Healthcare,South,Website,20020.33,Converted,46.7
+L0122,Client_122,Healthcare,South,Email Campaign,27735.22,Converted,67.8
+L0123,Client_123,Technology,North,Email Campaign,48098.34,Converted,65.3
+L0124,Client_124,Technology,North,Website,4398.7,Converted,8.2
+L0125,Client_125,Technology,South,Email Campaign,5627.71,Converted,49.5
+L0126,Client_126,Retail,North,Referral,16629.81,Converted,61.0
+L0127,Client_127,Technology,East,Referral,40908.96,Converted,21.0
+L0128,Client_128,Manufacturing,South,Website,35140.12,Not Converted,45.7
+L0129,Client_129,Technology,North,Referral,37018.48,Converted,58.0
+L0130,Client_130,Manufacturing,West,Referral,9694.54,Not Converted,54.3
+L0131,Client_131,Technology,South,Cold Call,49534.75,Converted,30.3
+L0132,Client_132,Retail,North,Website,39044.24,Not Converted,25.2
+L0133,Client_133,Retail,North,Social Media,43062.22,Not Converted,31.5
+L0134,Client_134,Healthcare,East,Referral,37972.6,Not Converted,8.3
+L0135,Client_135,Technology,North,Cold Call,25757.37,Converted,59.7
+L0136,Client_136,Healthcare,North,Cold Call,44880.64,Converted,28.6
+L0137,Client_137,Healthcare,East,Referral,45363.72,Converted,7.5
+L0138,Client_138,Healthcare,North,Social Media,47553.04,Not Converted,68.5
+L0139,Client_139,Retail,West,Website,31960.02,Converted,32.8
+L0140,Client_140,Finance,South,Cold Call,17104.56,Not Converted,48.7
+L0141,Client_141,Finance,North,Cold Call,39787.37,Converted,57.1
+L0142,Client_142,Manufacturing,West,Cold Call,25226.59,Converted,5.1
+L0143,Client_143,Finance,South,Website,22634.99,Converted,64.0
+L0144,Client_144,Retail,North,Cold Call,6736.28,Not Converted,11.2
+L0145,Client_145,Healthcare,West,Referral,31292.69,Converted,8.2
+L0146,Client_146,Retail,North,Social Media,35347.49,Converted,6.2
+L0147,Client_147,Manufacturing,South,Website,35605.87,Converted,6.8
+L0148,Client_148,Healthcare,North,Email Campaign,49345.34,Converted,27.6
+L0149,Client_149,Retail,West,Social Media,40827.18,Not Converted,68.3
+L0150,Client_150,Finance,South,Referral,37915.53,Converted,27.7
+L0151,Client_151,Healthcare,South,Referral,39080.2,Converted,40.6
+L0152,Client_152,Manufacturing,West,Referral,45411.36,Converted,8.9
+L0153,Client_153,Healthcare,North,Email Campaign,1556.33,Converted,34.3
+L0154,Client_154,Retail,East,Social Media,6822.08,Converted,9.3
+L0155,Client_155,Retail,South,Email Campaign,37556.2,Not Converted,42.4
+L0156,Client_156,Technology,North,Website,19368.66,Not Converted,21.3
+L0157,Client_157,Finance,West,Referral,11956.2,Converted,69.4
+L0158,Client_158,Technology,West,Referral,48524.06,Converted,4.1
+L0159,Client_159,Finance,East,Cold Call,26857.35,Converted,71.5
+L0160,Client_160,Healthcare,North,Referral,28138.86,Not Converted,69.8
+L0161,Client_161,Technology,South,Website,31840.53,Converted,50.4
+L0162,Client_162,Technology,South,Social Media,31750.35,Not Converted,42.5
+L0163,Client_163,Retail,West,Cold Call,3226.87,Not Converted,20.9
+L0164,Client_164,Healthcare,West,Social Media,44622.93,Not Converted,33.4
+L0165,Client_165,Retail,North,Referral,14591.68,Converted,14.4
+L0166,Client_166,Healthcare,West,Referral,18314.26,Converted,42.4
+L0167,Client_167,Healthcare,South,Social Media,48745.35,Not Converted,71.0
+L0168,Client_168,Healthcare,North,Cold Call,27268.72,Converted,23.0
+L0169,Client_169,Retail,South,Cold Call,34551.83,Not Converted,12.5
+L0170,Client_170,Healthcare,North,Email Campaign,41304.32,Not Converted,68.4
+L0171,Client_171,Technology,East,Email Campaign,31057.34,Not Converted,30.7
+L0172,Client_172,Retail,North,Referral,43437.13,Converted,4.2
+L0173,Client_173,Healthcare,East,Social Media,19446.7,Not Converted,58.5
+L0174,Client_174,Healthcare,North,Social Media,8370.43,Not Converted,43.2
+L0175,Client_175,Healthcare,South,Cold Call,48525.81,Not Converted,60.8
+L0176,Client_176,Technology,North,Email Campaign,23965.96,Converted,30.5
+L0177,Client_177,Manufacturing,North,Website,3762.4,Not Converted,62.4
+L0178,Client_178,Retail,North,Cold Call,49986.17,Not Converted,71.8
+L0179,Client_179,Healthcare,North,Email Campaign,38680.38,Not Converted,68.1
+L0180,Client_180,Retail,East,Referral,13120.06,Converted,33.0
+L0181,Client_181,Healthcare,East,Social Media,47748.5,Converted,44.0
+L0182,Client_182,Technology,East,Website,33913.33,Converted,44.9
+L0183,Client_183,Retail,West,Cold Call,6564.32,Not Converted,48.7
+L0184,Client_184,Retail,West,Social Media,38843.6,Not Converted,37.9
+L0185,Client_185,Finance,West,Cold Call,28043.44,Not Converted,40.8
+L0186,Client_186,Finance,West,Cold Call,20770.66,Converted,10.5
+L0187,Client_187,Finance,North,Referral,38001.73,Not Converted,45.0
+L0188,Client_188,Retail,South,Email Campaign,11435.24,Converted,10.7
+L0189,Client_189,Manufacturing,North,Social Media,18178.79,Not Converted,42.9
+L0190,Client_190,Technology,North,Cold Call,22436.27,Converted,65.2
+L0191,Client_191,Retail,North,Email Campaign,26185.48,Converted,56.6
+L0192,Client_192,Manufacturing,East,Social Media,31482.25,Not Converted,62.2
+L0193,Client_193,Manufacturing,East,Website,8206.6,Not Converted,66.8
+L0194,Client_194,Manufacturing,East,Social Media,13653.98,Not Converted,33.6
+L0195,Client_195,Healthcare,South,Website,25138.29,Not Converted,24.3
+L0196,Client_196,Technology,South,Cold Call,12767.14,Converted,6.4
+L0197,Client_197,Manufacturing,West,Cold Call,7274.25,Converted,11.8
+L0198,Client_198,Retail,South,Website,32402.86,Converted,13.9
+L0199,Client_199,Finance,West,Referral,44942.63,Not Converted,34.7
+L0200,Client_200,Healthcare,West,Referral,9443.67,Converted,14.7
+L0201,Client_201,Retail,South,Email Campaign,9277.82,Converted,20.8
+L0202,Client_202,Technology,South,Social Media,5346.42,Converted,9.6
+L0203,Client_203,Manufacturing,South,Cold Call,11110.35,Not Converted,26.9
+L0204,Client_204,Retail,South,Cold Call,34829.35,Converted,3.8
+L0205,Client_205,Finance,East,Referral,31767.12,Converted,6.8
+L0206,Client_206,Healthcare,North,Website,46122.75,Converted,5.3
+L0207,Client_207,Finance,East,Email Campaign,40503.86,Converted,54.1
+L0208,Client_208,Manufacturing,South,Website,11258.12,Not Converted,27.3
+L0209,Client_209,Manufacturing,South,Referral,31294.48,Converted,27.2
+L0210,Client_210,Retail,North,Website,37626.08,Converted,3.6
+L0211,Client_211,Technology,East,Cold Call,35954.13,Not Converted,64.6
+L0212,Client_212,Finance,North,Cold Call,27073.56,Converted,8.6
+L0213,Client_213,Finance,West,Social Media,27098.25,Converted,18.2
+L0214,Client_214,Technology,West,Cold Call,19486.92,Converted,2.4
+L0215,Client_215,Healthcare,West,Cold Call,11360.95,Converted,24.3
+L0216,Client_216,Healthcare,West,Email Campaign,44635.84,Not Converted,43.1
+L0217,Client_217,Healthcare,South,Cold Call,39669.39,Converted,36.4
+L0218,Client_218,Retail,West,Cold Call,27318.22,Not Converted,42.7
+L0219,Client_219,Retail,East,Social Media,22151.32,Converted,10.1
+L0220,Client_220,Retail,North,Cold Call,18791.03,Not Converted,46.9
+L0221,Client_221,Retail,South,Social Media,18448.74,Not Converted,71.0
+L0222,Client_222,Retail,South,Email Campaign,12624.11,Converted,8.2
+L0223,Client_223,Technology,South,Social Media,13051.93,Converted,12.4
+L0224,Client_224,Technology,North,Cold Call,14969.66,Not Converted,13.3
+L0225,Client_225,Healthcare,North,Website,4931.45,Not Converted,38.2
+L0226,Client_226,Finance,South,Cold Call,49136.55,Converted,9.0
+L0227,Client_227,Healthcare,East,Social Media,48504.05,Not Converted,62.5
+L0228,Client_228,Manufacturing,South,Referral,13637.24,Converted,13.1
+L0229,Client_229,Healthcare,East,Email Campaign,46539.42,Not Converted,40.5
+L0230,Client_230,Manufacturing,South,Email Campaign,14718.98,Converted,55.6
+L0231,Client_231,Retail,South,Email Campaign,16860.28,Not Converted,31.2
+L0232,Client_232,Retail,West,Social Media,12878.08,Converted,9.2
+L0233,Client_233,Manufacturing,East,Email Campaign,15142.9,Converted,42.3
+L0234,Client_234,Retail,West,Referral,24575.86,Converted,38.8
+L0235,Client_235,Finance,West,Website,17493.61,Converted,10.5
+L0236,Client_236,Manufacturing,East,Referral,49508.05,Converted,23.9
+L0237,Client_237,Technology,East,Website,13477.39,Not Converted,49.4
+L0238,Client_238,Retail,West,Referral,30186.3,Converted,34.5
+L0239,Client_239,Manufacturing,North,Email Campaign,18094.55,Not Converted,67.0
+L0240,Client_240,Healthcare,West,Cold Call,48286.32,Converted,9.8
+L0241,Client_241,Healthcare,West,Cold Call,46978.68,Converted,13.9
+L0242,Client_242,Finance,East,Website,37314.91,Not Converted,41.8
+L0243,Client_243,Healthcare,North,Social Media,7848.85,Converted,57.5
+L0244,Client_244,Finance,North,Social Media,9019.14,Not Converted,12.7
+L0245,Client_245,Healthcare,North,Website,33594.66,Converted,38.1
+L0246,Client_246,Healthcare,North,Social Media,43982.83,Not Converted,28.9
+L0247,Client_247,Healthcare,East,Cold Call,22517.61,Converted,27.8
+L0248,Client_248,Finance,East,Social Media,15767.52,Not Converted,54.1
+L0249,Client_249,Finance,East,Referral,12378.42,Not Converted,64.9
+L0250,Client_250,Manufacturing,East,Referral,27634.09,Not Converted,65.4
+L0251,Client_251,Healthcare,West,Referral,6728.0,Not Converted,67.7
+L0252,Client_252,Healthcare,North,Social Media,17410.38,Not Converted,10.9
+L0253,Client_253,Retail,North,Referral,31383.57,Not Converted,38.9
+L0254,Client_254,Healthcare,West,Cold Call,39641.26,Converted,11.8
+L0255,Client_255,Retail,West,Email Campaign,13175.97,Converted,53.8
+L0256,Client_256,Manufacturing,North,Social Media,28924.59,Not Converted,55.1
+L0257,Client_257,Retail,South,Email Campaign,17762.01,Converted,59.3
+L0258,Client_258,Retail,East,Website,42476.16,Converted,10.1
+L0259,Client_259,Technology,East,Social Media,40067.47,Converted,11.6
+L0260,Client_260,Manufacturing,West,Cold Call,36390.38,Not Converted,52.1
+L0261,Client_261,Technology,North,Website,35003.47,Converted,39.5
+L0262,Client_262,Retail,South,Social Media,17939.1,Not Converted,13.9
+L0263,Client_263,Retail,West,Social Media,29586.2,Converted,29.5
+L0264,Client_264,Finance,West,Cold Call,47416.88,Converted,11.9
+L0265,Client_265,Retail,South,Social Media,25788.55,Converted,44.4
+L0266,Client_266,Manufacturing,South,Cold Call,43734.07,Not Converted,67.2
+L0267,Client_267,Healthcare,East,Email Campaign,35135.89,Not Converted,66.5
+L0268,Client_268,Manufacturing,North,Website,8474.41,Not Converted,41.9
+L0269,Client_269,Manufacturing,East,Email Campaign,21782.4,Not Converted,53.3
+L0270,Client_270,Retail,North,Website,46352.86,Converted,33.0
+L0271,Client_271,Technology,North,Website,49257.22,Converted,60.6
+L0272,Client_272,Manufacturing,North,Website,46121.25,Not Converted,62.8
+L0273,Client_273,Healthcare,West,Social Media,29972.5,Converted,29.3
+L0274,Client_274,Retail,South,Referral,17424.66,Converted,58.0
+L0275,Client_275,Technology,East,Website,17341.46,Not Converted,29.3
+L0276,Client_276,Technology,West,Social Media,46072.93,Converted,25.6
+L0277,Client_277,Manufacturing,East,Social Media,37137.56,Converted,33.1
+L0278,Client_278,Healthcare,North,Social Media,23169.54,Converted,11.0
+L0279,Client_279,Technology,North,Referral,25420.02,Not Converted,30.7
+L0280,Client_280,Retail,North,Social Media,18757.3,Not Converted,42.2
+L0281,Client_281,Healthcare,South,Referral,1641.63,Converted,48.1
+L0282,Client_282,Finance,South,Email Campaign,48092.45,Converted,11.6
+L0283,Client_283,Technology,West,Social Media,5182.13,Not Converted,71.8
+L0284,Client_284,Retail,South,Referral,30173.87,Converted,5.8
+L0285,Client_285,Retail,North,Email Campaign,11285.37,Converted,64.8
+L0286,Client_286,Technology,East,Social Media,10343.7,Converted,3.6
+L0287,Client_287,Manufacturing,South,Email Campaign,28677.22,Converted,5.7
+L0288,Client_288,Manufacturing,South,Cold Call,23211.15,Converted,38.2
+L0289,Client_289,Healthcare,East,Website,20637.39,Converted,40.7
+L0290,Client_290,Technology,North,Website,9914.48,Not Converted,62.2
+L0291,Client_291,Finance,South,Cold Call,19292.16,Converted,20.2
+L0292,Client_292,Retail,South,Social Media,21027.97,Converted,2.8
+L0293,Client_293,Retail,West,Website,36082.64,Converted,47.8
+L0294,Client_294,Retail,North,Social Media,11876.64,Converted,17.4
+L0295,Client_295,Finance,East,Website,1965.82,Not Converted,8.4
+L0296,Client_296,Healthcare,South,Cold Call,9748.69,Converted,47.3
+L0297,Client_297,Retail,South,Website,5872.63,Not Converted,18.3
+L0298,Client_298,Finance,North,Email Campaign,42929.13,Converted,59.9
+L0299,Client_299,Manufacturing,South,Cold Call,33736.17,Converted,15.6
+L0300,Client_300,Finance,West,Cold Call,44920.46,Converted,1.9
+L0301,Client_301,Retail,West,Cold Call,11186.43,Converted,2.9
+L0302,Client_302,Technology,West,Referral,29569.04,Not Converted,30.9
+L0303,Client_303,Healthcare,East,Referral,41054.73,Converted,25.3
+L0304,Client_304,Healthcare,South,Cold Call,19604.93,Converted,42.9
+L0305,Client_305,Technology,South,Social Media,31583.3,Not Converted,30.1
+L0306,Client_306,Retail,West,Email Campaign,22370.2,Not Converted,21.9
+L0307,Client_307,Finance,East,Cold Call,38416.68,Converted,10.9
+L0308,Client_308,Retail,North,Social Media,24884.13,Not Converted,64.5
+L0309,Client_309,Retail,East,Cold Call,21835.46,Converted,2.6
+L0310,Client_310,Manufacturing,North,Email Campaign,27540.08,Converted,46.0
+L0311,Client_311,Technology,East,Cold Call,7828.45,Not Converted,60.3
+L0312,Client_312,Manufacturing,South,Cold Call,26758.82,Converted,13.2
+L0313,Client_313,Healthcare,South,Referral,1901.14,Converted,65.9
+L0314,Client_314,Healthcare,North,Social Media,29249.31,Converted,20.5
+L0315,Client_315,Technology,East,Email Campaign,32919.6,Converted,59.9
+L0316,Client_316,Technology,North,Cold Call,1538.8,Not Converted,10.7
+L0317,Client_317,Technology,South,Social Media,43820.61,Not Converted,43.4
+L0318,Client_318,Technology,West,Social Media,33586.8,Not Converted,13.5
+L0319,Client_319,Finance,East,Website,21519.76,Not Converted,28.2
+L0320,Client_320,Technology,North,Referral,3301.33,Not Converted,12.8
+L0321,Client_321,Technology,East,Email Campaign,5057.13,Converted,43.8
+L0322,Client_322,Retail,East,Cold Call,20075.49,Converted,21.5
+L0323,Client_323,Healthcare,North,Cold Call,36233.25,Converted,22.1
+L0324,Client_324,Manufacturing,North,Referral,24326.47,Not Converted,48.1
+L0325,Client_325,Retail,East,Social Media,36896.03,Converted,16.3
+L0326,Client_326,Manufacturing,South,Website,13850.94,Converted,43.3
+L0327,Client_327,Technology,North,Referral,25321.95,Converted,43.4
+L0328,Client_328,Retail,North,Social Media,38774.7,Converted,8.6
+L0329,Client_329,Retail,South,Referral,36681.25,Not Converted,36.2
+L0330,Client_330,Technology,South,Social Media,22306.54,Converted,18.5
+L0331,Client_331,Healthcare,North,Cold Call,40171.38,Converted,50.3
+L0332,Client_332,Manufacturing,South,Social Media,29921.3,Converted,26.6
+L0333,Client_333,Retail,West,Email Campaign,45948.37,Not Converted,10.7
+L0334,Client_334,Retail,North,Email Campaign,22854.28,Converted,14.1
+L0335,Client_335,Technology,South,Social Media,43774.35,Not Converted,53.0
+L0336,Client_336,Finance,South,Website,33280.38,Not Converted,50.2
+L0337,Client_337,Retail,North,Referral,13233.73,Converted,35.7
+L0338,Client_338,Finance,East,Referral,49395.73,Converted,68.0
+L0339,Client_339,Retail,West,Cold Call,35573.18,Converted,66.7
+L0340,Client_340,Retail,South,Email Campaign,28829.32,Converted,66.0
+L0341,Client_341,Technology,North,Cold Call,35173.59,Not Converted,22.1
+L0342,Client_342,Retail,West,Cold Call,48581.85,Converted,68.0
+L0343,Client_343,Technology,South,Referral,43240.09,Converted,61.0
+L0344,Client_344,Technology,North,Website,41616.86,Converted,3.6
+L0345,Client_345,Finance,South,Website,12270.43,Converted,9.6
+L0346,Client_346,Technology,North,Social Media,35118.15,Not Converted,25.1
+L0347,Client_347,Technology,West,Email Campaign,4202.46,Converted,23.4
+L0348,Client_348,Technology,South,Email Campaign,39745.44,Converted,23.6
+L0349,Client_349,Healthcare,South,Cold Call,44412.91,Converted,44.7
+L0350,Client_350,Healthcare,West,Cold Call,2195.64,Converted,62.8
+L0351,Client_351,Manufacturing,East,Social Media,43860.38,Not Converted,38.6
+L0352,Client_352,Retail,West,Email Campaign,40140.38,Converted,71.9
+L0353,Client_353,Technology,West,Cold Call,38592.23,Converted,29.5
+L0354,Client_354,Technology,West,Email Campaign,31747.77,Not Converted,63.0
+L0355,Client_355,Technology,South,Website,38645.4,Converted,30.7
+L0356,Client_356,Retail,North,Cold Call,37141.53,Converted,18.0
+L0357,Client_357,Finance,North,Email Campaign,18376.49,Converted,21.4
+L0358,Client_358,Manufacturing,North,Website,12446.78,Converted,4.0
+L0359,Client_359,Technology,South,Email Campaign,49398.4,Converted,31.4
+L0360,Client_360,Finance,East,Social Media,34302.72,Not Converted,16.5
+L0361,Client_361,Technology,North,Social Media,39530.91,Converted,7.3
+L0362,Client_362,Finance,West,Social Media,44076.8,Converted,68.1
+L0363,Client_363,Healthcare,East,Website,31057.16,Not Converted,12.9
+L0364,Client_364,Manufacturing,South,Social Media,12351.91,Not Converted,67.9
+L0365,Client_365,Finance,South,Cold Call,30779.1,Converted,37.4
+L0366,Client_366,Retail,South,Email Campaign,9649.87,Converted,16.7
+L0367,Client_367,Healthcare,West,Website,39199.64,Converted,25.9
+L0368,Client_368,Finance,East,Website,48486.03,Not Converted,63.7
+L0369,Client_369,Finance,East,Social Media,49750.48,Converted,13.3
+L0370,Client_370,Healthcare,North,Cold Call,38153.69,Converted,50.4
+L0371,Client_371,Finance,North,Website,40975.82,Converted,16.9
+L0372,Client_372,Healthcare,North,Email Campaign,27311.75,Not Converted,43.1
+L0373,Client_373,Healthcare,South,Email Campaign,5482.86,Converted,63.3
+L0374,Client_374,Technology,East,Cold Call,7346.23,Not Converted,64.1
+L0375,Client_375,Retail,West,Social Media,43244.25,Not Converted,58.5
+L0376,Client_376,Finance,West,Referral,27992.01,Converted,7.2
+L0377,Client_377,Retail,North,Website,19261.74,Not Converted,19.4
+L0378,Client_378,Healthcare,North,Cold Call,25297.91,Converted,6.8
+L0379,Client_379,Healthcare,East,Referral,34479.68,Converted,6.4
+L0380,Client_380,Finance,South,Email Campaign,25262.18,Not Converted,35.1
+L0381,Client_381,Finance,West,Social Media,41409.37,Not Converted,25.7
+L0382,Client_382,Retail,South,Cold Call,28720.87,Converted,20.0
+L0383,Client_383,Retail,North,Social Media,40073.88,Not Converted,47.8
+L0384,Client_384,Technology,North,Website,43497.42,Not Converted,51.3
+L0385,Client_385,Finance,East,Referral,35176.1,Not Converted,49.3
+L0386,Client_386,Manufacturing,West,Website,37883.12,Converted,12.3
+L0387,Client_387,Healthcare,West,Email Campaign,43720.33,Converted,3.1
+L0388,Client_388,Retail,North,Cold Call,7314.62,Not Converted,24.8
+L0389,Client_389,Manufacturing,East,Social Media,8877.23,Not Converted,59.1
+L0390,Client_390,Retail,North,Email Campaign,25865.92,Converted,1.5
+L0391,Client_391,Retail,West,Referral,31229.42,Not Converted,70.7
+L0392,Client_392,Manufacturing,South,Cold Call,13730.38,Not Converted,46.0
+L0393,Client_393,Finance,South,Referral,39212.42,Converted,8.6
+L0394,Client_394,Technology,East,Cold Call,27522.06,Converted,69.4
+L0395,Client_395,Manufacturing,North,Referral,31998.47,Converted,67.2
+L0396,Client_396,Healthcare,North,Cold Call,46924.2,Converted,49.8
+L0397,Client_397,Finance,West,Cold Call,15747.21,Converted,51.3
+L0398,Client_398,Retail,South,Referral,29526.35,Not Converted,25.6
+L0399,Client_399,Retail,East,Email Campaign,3241.36,Not Converted,62.9
+L0400,Client_400,Manufacturing,North,Cold Call,48475.01,Converted,54.2
+L0401,Client_401,Manufacturing,West,Cold Call,38154.9,Converted,2.7
+L0402,Client_402,Manufacturing,South,Social Media,16856.9,Not Converted,35.7
+L0403,Client_403,Manufacturing,West,Social Media,34481.47,Converted,32.7
+L0404,Client_404,Retail,North,Website,49859.1,Converted,31.3
+L0405,Client_405,Manufacturing,South,Website,9017.57,Not Converted,57.4
+L0406,Client_406,Manufacturing,East,Website,11817.71,Converted,6.8
+L0407,Client_407,Retail,East,Referral,33071.05,Not Converted,20.4
+L0408,Client_408,Finance,East,Referral,8401.84,Not Converted,31.7
+L0409,Client_409,Retail,East,Website,21566.64,Converted,46.3
+L0410,Client_410,Retail,West,Referral,14436.54,Not Converted,70.9
+L0411,Client_411,Finance,East,Website,44810.86,Converted,17.3
+L0412,Client_412,Finance,South,Cold Call,2525.57,Not Converted,47.3
+L0413,Client_413,Finance,North,Website,43353.55,Not Converted,34.6
+L0414,Client_414,Manufacturing,South,Social Media,10090.75,Not Converted,62.7
+L0415,Client_415,Healthcare,North,Website,38775.17,Not Converted,61.0
+L0416,Client_416,Finance,East,Cold Call,31684.8,Converted,10.3
+L0417,Client_417,Technology,South,Email Campaign,46121.54,Not Converted,44.8
+L0418,Client_418,Finance,North,Website,24594.6,Converted,9.3
+L0419,Client_419,Manufacturing,West,Social Media,34592.7,Converted,31.6
+L0420,Client_420,Manufacturing,South,Social Media,25088.13,Converted,5.6
+L0421,Client_421,Finance,West,Cold Call,14180.68,Not Converted,57.6
+L0422,Client_422,Retail,South,Referral,23305.79,Converted,1.8
+L0423,Client_423,Retail,East,Email Campaign,20232.18,Not Converted,35.1
+L0424,Client_424,Retail,West,Referral,15291.47,Not Converted,50.3
+L0425,Client_425,Technology,West,Social Media,39212.7,Converted,3.8
+L0426,Client_426,Healthcare,West,Referral,6141.58,Not Converted,18.2
+L0427,Client_427,Manufacturing,South,Website,7982.28,Not Converted,36.4
+L0428,Client_428,Finance,North,Cold Call,35420.78,Converted,40.7
+L0429,Client_429,Healthcare,East,Email Campaign,16996.6,Converted,37.8
+L0430,Client_430,Healthcare,South,Website,18180.72,Converted,3.4
+L0431,Client_431,Finance,South,Website,20449.24,Converted,10.4
+L0432,Client_432,Finance,North,Website,34783.78,Converted,57.8
+L0433,Client_433,Manufacturing,South,Referral,9206.65,Converted,8.4
+L0434,Client_434,Healthcare,East,Website,35617.31,Not Converted,3.2
+L0435,Client_435,Finance,West,Social Media,3546.59,Not Converted,39.4
+L0436,Client_436,Manufacturing,North,Website,43677.49,Not Converted,51.7
+L0437,Client_437,Manufacturing,South,Cold Call,17633.06,Converted,58.9
+L0438,Client_438,Manufacturing,North,Cold Call,44846.02,Not Converted,39.9
+L0439,Client_439,Technology,South,Email Campaign,23163.6,Not Converted,46.7
+L0440,Client_440,Manufacturing,East,Website,36847.89,Converted,6.8
+L0441,Client_441,Manufacturing,West,Website,13108.06,Not Converted,12.3
+L0442,Client_442,Retail,South,Website,11741.49,Not Converted,70.3
+L0443,Client_443,Healthcare,East,Cold Call,9923.78,Not Converted,57.1
+L0444,Client_444,Healthcare,South,Email Campaign,25411.59,Not Converted,40.4
+L0445,Client_445,Retail,South,Email Campaign,12194.28,Not Converted,71.7
+L0446,Client_446,Retail,North,Cold Call,32865.96,Converted,15.2
+L0447,Client_447,Healthcare,North,Cold Call,4537.72,Converted,3.2
+L0448,Client_448,Technology,East,Email Campaign,23668.52,Not Converted,62.6
+L0449,Client_449,Technology,East,Email Campaign,37392.62,Converted,31.2
+L0450,Client_450,Manufacturing,East,Email Campaign,19180.9,Converted,71.1
+L0451,Client_451,Manufacturing,South,Cold Call,43484.54,Converted,42.1
+L0452,Client_452,Finance,East,Cold Call,36537.63,Not Converted,35.6
+L0453,Client_453,Finance,North,Referral,45134.39,Converted,30.9
+L0454,Client_454,Retail,West,Referral,30025.17,Converted,65.8
+L0455,Client_455,Healthcare,North,Social Media,31525.36,Not Converted,45.8
+L0456,Client_456,Finance,North,Website,7446.82,Not Converted,51.8
+L0457,Client_457,Retail,West,Website,9804.47,Not Converted,17.9
+L0458,Client_458,Technology,North,Cold Call,9867.87,Not Converted,61.7
+L0459,Client_459,Healthcare,West,Website,13114.32,Not Converted,62.8
+L0460,Client_460,Healthcare,West,Email Campaign,26226.05,Not Converted,26.5
+L0461,Client_461,Retail,West,Referral,9012.67,Not Converted,28.8
+L0462,Client_462,Finance,East,Social Media,13648.54,Not Converted,47.6
+L0463,Client_463,Manufacturing,South,Cold Call,38900.18,Not Converted,10.3
+L0464,Client_464,Technology,South,Referral,23235.69,Converted,17.8
+L0465,Client_465,Technology,North,Social Media,9318.14,Not Converted,37.9
+L0466,Client_466,Finance,North,Website,41615.28,Converted,31.6
+L0467,Client_467,Manufacturing,North,Social Media,31240.1,Converted,51.2
+L0468,Client_468,Healthcare,East,Email Campaign,9213.34,Not Converted,3.6
+L0469,Client_469,Manufacturing,East,Social Media,33526.42,Not Converted,34.7
+L0470,Client_470,Technology,North,Website,40477.84,Not Converted,42.6
+L0471,Client_471,Finance,East,Email Campaign,11086.22,Converted,8.9
+L0472,Client_472,Finance,East,Referral,3797.26,Not Converted,38.7
+L0473,Client_473,Technology,South,Website,2927.83,Converted,9.7
+L0474,Client_474,Healthcare,South,Website,46759.88,Converted,23.4
+L0475,Client_475,Finance,East,Social Media,3037.07,Not Converted,11.5
+L0476,Client_476,Healthcare,South,Referral,48290.82,Not Converted,1.4
+L0477,Client_477,Healthcare,South,Cold Call,32316.88,Converted,62.6
+L0478,Client_478,Finance,North,Referral,26264.21,Not Converted,35.7
+L0479,Client_479,Manufacturing,South,Referral,7842.91,Converted,3.1
+L0480,Client_480,Technology,North,Social Media,35529.36,Converted,15.3
+L0481,Client_481,Technology,West,Website,48525.69,Converted,7.7
+L0482,Client_482,Manufacturing,West,Referral,22743.76,Converted,62.6
+L0483,Client_483,Technology,West,Website,34938.67,Not Converted,60.5
+L0484,Client_484,Retail,North,Cold Call,34479.15,Not Converted,36.3
+L0485,Client_485,Manufacturing,West,Cold Call,43576.34,Converted,41.5
+L0486,Client_486,Technology,South,Website,46616.49,Not Converted,50.0
+L0487,Client_487,Finance,South,Email Campaign,11568.08,Not Converted,47.8
+L0488,Client_488,Retail,East,Email Campaign,32910.42,Converted,8.6
+L0489,Client_489,Technology,West,Cold Call,49971.27,Not Converted,4.4
+L0490,Client_490,Manufacturing,South,Cold Call,20938.49,Not Converted,62.8
+L0491,Client_491,Retail,West,Social Media,28783.8,Not Converted,53.4
+L0492,Client_492,Manufacturing,East,Website,20802.88,Not Converted,24.2
+L0493,Client_493,Technology,East,Referral,40584.45,Not Converted,55.1
+L0494,Client_494,Retail,North,Email Campaign,22343.58,Converted,59.1
+L0495,Client_495,Healthcare,South,Social Media,27679.97,Converted,1.4
+L0496,Client_496,Retail,South,Email Campaign,18956.62,Not Converted,29.1
+L0497,Client_497,Healthcare,West,Email Campaign,20039.35,Converted,32.9
+L0498,Client_498,Retail,East,Cold Call,19289.34,Converted,17.1
+L0499,Client_499,Technology,South,Cold Call,30568.98,Not Converted,48.4
+L0500,Client_500,Finance,West,Cold Call,23711.21,Not Converted,28.0
+L0501,Client_501,Technology,West,Website,26435.01,Converted,35.0
+L0502,Client_502,Technology,North,Referral,17721.14,Not Converted,28.0
+L0503,Client_503,Technology,West,Email Campaign,29428.45,Not Converted,38.9
+L0504,Client_504,Manufacturing,West,Referral,38479.28,Not Converted,58.7
+L0505,Client_505,Healthcare,North,Website,47820.66,Converted,2.3
+L0506,Client_506,Technology,West,Email Campaign,1370.58,Not Converted,47.0
+L0507,Client_507,Manufacturing,South,Social Media,12930.63,Converted,66.8
+L0508,Client_508,Retail,South,Email Campaign,46787.37,Converted,26.0
+L0509,Client_509,Retail,South,Website,24807.72,Converted,19.2
+L0510,Client_510,Manufacturing,East,Social Media,16057.21,Not Converted,58.0
+L0511,Client_511,Technology,North,Referral,16254.08,Not Converted,44.3
+L0512,Client_512,Finance,North,Social Media,14358.58,Converted,30.4
+L0513,Client_513,Healthcare,West,Cold Call,9876.32,Converted,49.4
+L0514,Client_514,Finance,East,Referral,26733.01,Converted,51.3
+L0515,Client_515,Technology,West,Email Campaign,28798.3,Not Converted,19.2
+L0516,Client_516,Healthcare,South,Social Media,24693.74,Not Converted,58.2
+L0517,Client_517,Healthcare,South,Cold Call,3127.21,Not Converted,46.0
+L0518,Client_518,Healthcare,West,Website,30478.98,Not Converted,59.2
+L0519,Client_519,Technology,West,Social Media,12175.91,Converted,16.1
+L0520,Client_520,Retail,East,Referral,21140.4,Not Converted,60.6
+L0521,Client_521,Manufacturing,North,Referral,18317.65,Not Converted,17.8
+L0522,Client_522,Healthcare,West,Website,14465.5,Not Converted,59.4
+L0523,Client_523,Manufacturing,North,Website,33709.95,Converted,7.8
+L0524,Client_524,Healthcare,East,Email Campaign,23136.62,Converted,42.6
+L0525,Client_525,Finance,East,Social Media,37106.81,Converted,62.3
+L0526,Client_526,Finance,East,Website,5690.01,Converted,2.7
+L0527,Client_527,Retail,North,Cold Call,30747.61,Converted,39.8
+L0528,Client_528,Technology,West,Cold Call,20154.39,Converted,43.2
+L0529,Client_529,Retail,East,Email Campaign,49401.49,Converted,10.7
+L0530,Client_530,Manufacturing,North,Email Campaign,20811.62,Not Converted,31.4
+L0531,Client_531,Manufacturing,North,Email Campaign,34929.37,Converted,71.4
+L0532,Client_532,Healthcare,West,Social Media,6101.37,Not Converted,52.4
+L0533,Client_533,Technology,North,Website,14433.87,Converted,6.6
+L0534,Client_534,Healthcare,South,Cold Call,44815.35,Converted,14.6
+L0535,Client_535,Finance,North,Referral,12106.16,Converted,26.2
+L0536,Client_536,Finance,West,Website,26433.93,Converted,5.8
+L0537,Client_537,Retail,West,Cold Call,12451.89,Not Converted,39.3
+L0538,Client_538,Healthcare,West,Cold Call,32892.99,Converted,38.8
+L0539,Client_539,Technology,East,Referral,17317.09,Not Converted,48.5
+L0540,Client_540,Finance,South,Email Campaign,33430.12,Not Converted,40.6
+L0541,Client_541,Healthcare,West,Website,23795.08,Converted,5.3
+L0542,Client_542,Finance,West,Cold Call,47923.64,Converted,13.4
+L0543,Client_543,Healthcare,South,Cold Call,10845.75,Converted,39.0
+L0544,Client_544,Finance,West,Referral,23068.18,Converted,54.7
+L0545,Client_545,Retail,North,Website,33580.67,Not Converted,57.5
+L0546,Client_546,Finance,North,Referral,12497.46,Converted,29.4
+L0547,Client_547,Healthcare,North,Cold Call,49631.69,Not Converted,66.8
+L0548,Client_548,Finance,West,Website,42259.63,Not Converted,38.0
+L0549,Client_549,Technology,South,Social Media,5367.1,Converted,54.6
+L0550,Client_550,Technology,South,Social Media,41477.31,Not Converted,56.5
+L0551,Client_551,Healthcare,West,Email Campaign,2771.86,Converted,22.5
+L0552,Client_552,Finance,South,Social Media,18646.68,Not Converted,7.2
+L0553,Client_553,Technology,East,Social Media,28136.31,Converted,22.7
+L0554,Client_554,Healthcare,East,Email Campaign,22912.92,Not Converted,43.6
+L0555,Client_555,Manufacturing,East,Email Campaign,46050.21,Not Converted,36.3
+L0556,Client_556,Retail,North,Website,42719.82,Not Converted,15.8
+L0557,Client_557,Finance,East,Website,6701.95,Not Converted,59.0
+L0558,Client_558,Technology,North,Social Media,44020.74,Not Converted,62.6
+L0559,Client_559,Finance,North,Email Campaign,39711.49,Converted,22.6
+L0560,Client_560,Healthcare,West,Email Campaign,20746.03,Converted,13.3
+L0561,Client_561,Finance,East,Cold Call,17958.89,Not Converted,70.3
+L0562,Client_562,Finance,South,Website,41301.55,Converted,10.4
+L0563,Client_563,Retail,West,Referral,46215.1,Not Converted,35.6
+L0564,Client_564,Technology,South,Website,38475.68,Converted,13.4
+L0565,Client_565,Healthcare,South,Social Media,20534.49,Converted,11.4
+L0566,Client_566,Finance,South,Social Media,4340.44,Converted,2.8
+L0567,Client_567,Finance,North,Cold Call,48192.64,Not Converted,40.0
+L0568,Client_568,Technology,South,Website,22192.4,Converted,23.1
+L0569,Client_569,Healthcare,West,Website,22536.07,Converted,8.5
+L0570,Client_570,Finance,North,Cold Call,11585.87,Not Converted,45.0
+L0571,Client_571,Healthcare,East,Website,8449.22,Not Converted,5.4
+L0572,Client_572,Healthcare,West,Referral,23530.22,Not Converted,5.1
+L0573,Client_573,Manufacturing,East,Email Campaign,3831.25,Not Converted,50.3
+L0574,Client_574,Finance,North,Website,12719.83,Converted,11.1
+L0575,Client_575,Retail,South,Website,15860.48,Converted,8.2
+L0576,Client_576,Technology,East,Referral,4052.3,Not Converted,37.2
+L0577,Client_577,Finance,South,Social Media,40884.54,Converted,44.7
+L0578,Client_578,Finance,West,Social Media,31570.9,Converted,38.4
+L0579,Client_579,Technology,West,Cold Call,7404.81,Not Converted,63.9
+L0580,Client_580,Finance,West,Cold Call,10536.5,Not Converted,27.1
+L0581,Client_581,Manufacturing,South,Website,41549.36,Not Converted,53.1
+L0582,Client_582,Retail,West,Email Campaign,1540.53,Not Converted,30.5
+L0583,Client_583,Technology,West,Social Media,1940.42,Not Converted,19.4
+L0584,Client_584,Manufacturing,South,Social Media,7718.38,Converted,39.0
+L0585,Client_585,Retail,East,Social Media,1593.92,Not Converted,18.1
+L0586,Client_586,Healthcare,South,Email Campaign,40275.32,Converted,69.1
+L0587,Client_587,Technology,West,Website,6377.07,Not Converted,39.9
+L0588,Client_588,Finance,North,Referral,42373.5,Converted,8.0
+L0589,Client_589,Finance,East,Email Campaign,8352.38,Not Converted,24.1
+L0590,Client_590,Manufacturing,North,Referral,24324.89,Converted,27.7
+L0591,Client_591,Manufacturing,North,Cold Call,23512.89,Not Converted,56.7
+L0592,Client_592,Manufacturing,South,Referral,47811.4,Converted,56.9
+L0593,Client_593,Retail,South,Referral,34718.6,Converted,32.1
+L0594,Client_594,Healthcare,East,Referral,42202.71,Not Converted,3.7
+L0595,Client_595,Manufacturing,North,Referral,23612.4,Not Converted,46.2
+L0596,Client_596,Retail,West,Social Media,44860.77,Not Converted,46.2
+L0597,Client_597,Retail,East,Website,4265.95,Converted,37.8
+L0598,Client_598,Healthcare,West,Social Media,37134.25,Not Converted,37.4
+L0599,Client_599,Technology,South,Referral,3041.97,Not Converted,7.0
+L0600,Client_600,Manufacturing,East,Email Campaign,4532.13,Converted,6.1
+L0601,Client_601,Retail,South,Email Campaign,47868.57,Converted,53.4
+L0602,Client_602,Healthcare,West,Email Campaign,15530.24,Not Converted,25.8
+L0603,Client_603,Retail,South,Social Media,33407.16,Converted,14.1
+L0604,Client_604,Finance,West,Cold Call,5821.39,Not Converted,47.9
+L0605,Client_605,Manufacturing,East,Website,13987.27,Converted,2.5
+L0606,Client_606,Technology,West,Cold Call,48425.14,Converted,22.0
+L0607,Client_607,Healthcare,South,Email Campaign,31608.51,Converted,28.1
+L0608,Client_608,Finance,West,Cold Call,6947.93,Not Converted,44.7
+L0609,Client_609,Healthcare,East,Website,32551.31,Converted,38.7
+L0610,Client_610,Finance,North,Social Media,48455.95,Converted,57.7
+L0611,Client_611,Healthcare,West,Referral,49018.55,Not Converted,43.7
+L0612,Client_612,Technology,South,Cold Call,37655.59,Not Converted,58.6
+L0613,Client_613,Manufacturing,East,Referral,7276.69,Not Converted,25.0
+L0614,Client_614,Finance,East,Email Campaign,12006.16,Not Converted,27.4
+L0615,Client_615,Healthcare,North,Social Media,22530.84,Not Converted,44.5
+L0616,Client_616,Retail,East,Social Media,12793.94,Converted,9.6
+L0617,Client_617,Finance,East,Email Campaign,44459.32,Converted,46.9
+L0618,Client_618,Manufacturing,West,Cold Call,40981.4,Not Converted,62.2
+L0619,Client_619,Manufacturing,West,Website,46027.4,Converted,18.9
+L0620,Client_620,Manufacturing,West,Website,23566.44,Not Converted,60.8
+L0621,Client_621,Manufacturing,East,Social Media,39045.92,Converted,47.6
+L0622,Client_622,Healthcare,South,Referral,27706.32,Not Converted,70.9
+L0623,Client_623,Technology,East,Email Campaign,3115.51,Converted,12.7
+L0624,Client_624,Manufacturing,East,Cold Call,36573.02,Converted,59.1
+L0625,Client_625,Healthcare,North,Referral,25786.78,Not Converted,60.7
+L0626,Client_626,Finance,East,Website,27569.62,Not Converted,42.9
+L0627,Client_627,Technology,North,Email Campaign,15579.87,Not Converted,41.1
+L0628,Client_628,Manufacturing,East,Website,43792.82,Not Converted,46.2
+L0629,Client_629,Manufacturing,West,Email Campaign,8843.51,Converted,33.8
+L0630,Client_630,Finance,North,Referral,13087.26,Not Converted,52.6
+L0631,Client_631,Finance,West,Social Media,5859.73,Not Converted,29.5
+L0632,Client_632,Technology,West,Website,10997.75,Not Converted,40.4
+L0633,Client_633,Healthcare,West,Website,31183.29,Converted,14.3
+L0634,Client_634,Technology,South,Website,39405.8,Converted,40.4
+L0635,Client_635,Healthcare,West,Cold Call,38288.55,Converted,3.5
+L0636,Client_636,Finance,North,Referral,10921.55,Not Converted,69.0
+L0637,Client_637,Manufacturing,West,Email Campaign,17019.65,Converted,11.6
+L0638,Client_638,Manufacturing,East,Social Media,43955.89,Converted,71.7
+L0639,Client_639,Finance,North,Referral,22981.92,Not Converted,52.3
+L0640,Client_640,Finance,East,Referral,30059.17,Converted,28.8
+L0641,Client_641,Finance,North,Social Media,35085.29,Converted,1.2
+L0642,Client_642,Healthcare,South,Referral,18419.16,Converted,57.4
+L0643,Client_643,Healthcare,North,Referral,29821.91,Not Converted,35.1
+L0644,Client_644,Finance,North,Email Campaign,4177.83,Not Converted,42.2
+L0645,Client_645,Technology,North,Social Media,28472.34,Not Converted,43.8
+L0646,Client_646,Retail,South,Referral,40444.46,Converted,20.2
+L0647,Client_647,Healthcare,North,Cold Call,25414.53,Converted,6.5
+L0648,Client_648,Finance,South,Email Campaign,17377.68,Not Converted,56.7
+L0649,Client_649,Finance,East,Cold Call,39642.13,Converted,37.7
+L0650,Client_650,Finance,North,Referral,8225.17,Not Converted,24.3
+L0651,Client_651,Finance,South,Cold Call,5341.42,Converted,16.7
+L0652,Client_652,Retail,East,Email Campaign,37047.49,Not Converted,71.9
+L0653,Client_653,Healthcare,East,Website,32485.69,Not Converted,30.9
+L0654,Client_654,Manufacturing,North,Referral,39496.93,Converted,9.4
+L0655,Client_655,Healthcare,North,Referral,42150.31,Not Converted,28.3
+L0656,Client_656,Finance,West,Social Media,29800.7,Converted,14.1
+L0657,Client_657,Healthcare,North,Referral,17391.05,Converted,2.9
+L0658,Client_658,Finance,South,Email Campaign,41753.16,Converted,20.4
+L0659,Client_659,Retail,South,Website,15637.55,Converted,67.8
+L0660,Client_660,Healthcare,East,Social Media,22053.18,Not Converted,63.0
+L0661,Client_661,Healthcare,West,Referral,10118.97,Not Converted,58.0
+L0662,Client_662,Healthcare,South,Referral,24665.47,Converted,10.5
+L0663,Client_663,Manufacturing,South,Cold Call,36669.03,Converted,36.2
+L0664,Client_664,Manufacturing,East,Cold Call,36745.9,Converted,55.4
+L0665,Client_665,Technology,North,Website,30901.03,Converted,10.6
+L0666,Client_666,Technology,North,Email Campaign,33190.8,Converted,68.9
+L0667,Client_667,Finance,East,Referral,3795.68,Converted,21.0
+L0668,Client_668,Manufacturing,West,Referral,13101.96,Converted,65.3
+L0669,Client_669,Finance,West,Referral,14325.54,Not Converted,54.9
+L0670,Client_670,Retail,West,Cold Call,39058.82,Converted,5.6
+L0671,Client_671,Finance,East,Referral,2647.07,Not Converted,5.4
+L0672,Client_672,Healthcare,North,Cold Call,7823.02,Not Converted,38.8
+L0673,Client_673,Finance,North,Email Campaign,18019.82,Converted,64.9
+L0674,Client_674,Healthcare,East,Social Media,33525.69,Not Converted,69.4
+L0675,Client_675,Finance,West,Social Media,46904.3,Converted,4.7
+L0676,Client_676,Manufacturing,West,Social Media,13747.73,Not Converted,52.9
+L0677,Client_677,Manufacturing,West,Social Media,13569.97,Converted,47.4
+L0678,Client_678,Finance,North,Referral,28701.18,Not Converted,33.9
+L0679,Client_679,Retail,North,Cold Call,30817.84,Converted,25.8
+L0680,Client_680,Technology,West,Cold Call,8411.09,Converted,17.0
+L0681,Client_681,Manufacturing,West,Website,42680.19,Not Converted,40.8
+L0682,Client_682,Healthcare,South,Website,6623.67,Not Converted,62.1
+L0683,Client_683,Retail,North,Website,4315.75,Not Converted,51.3
+L0684,Client_684,Healthcare,East,Website,5004.54,Not Converted,33.5
+L0685,Client_685,Manufacturing,North,Cold Call,9122.95,Not Converted,68.1
+L0686,Client_686,Manufacturing,South,Social Media,33782.09,Converted,33.8
+L0687,Client_687,Healthcare,South,Social Media,32897.7,Converted,39.7
+L0688,Client_688,Retail,North,Website,26112.63,Converted,58.3
+L0689,Client_689,Healthcare,East,Social Media,3545.87,Converted,56.8
+L0690,Client_690,Manufacturing,East,Email Campaign,13672.42,Converted,12.7
+L0691,Client_691,Technology,South,Website,38080.82,Converted,37.9
+L0692,Client_692,Healthcare,South,Website,44013.67,Not Converted,63.5
+L0693,Client_693,Healthcare,North,Cold Call,12701.01,Not Converted,33.0
+L0694,Client_694,Healthcare,West,Website,38828.61,Converted,2.9
+L0695,Client_695,Finance,East,Social Media,23732.64,Not Converted,65.6
+L0696,Client_696,Finance,North,Social Media,25392.81,Converted,8.5
+L0697,Client_697,Healthcare,South,Cold Call,41283.05,Not Converted,28.0
+L0698,Client_698,Retail,South,Cold Call,48259.36,Converted,15.5
+L0699,Client_699,Finance,South,Website,15069.76,Not Converted,57.3
+L0700,Client_700,Healthcare,East,Social Media,32094.54,Converted,57.7
+L0701,Client_701,Retail,East,Email Campaign,45839.41,Converted,38.8
+L0702,Client_702,Finance,West,Website,35099.06,Converted,57.3
+L0703,Client_703,Technology,South,Website,43001.78,Converted,65.3
+L0704,Client_704,Technology,North,Email Campaign,49192.55,Converted,11.0
+L0705,Client_705,Manufacturing,North,Social Media,10027.02,Not Converted,64.5
+L0706,Client_706,Technology,East,Referral,8453.11,Not Converted,32.3
+L0707,Client_707,Technology,North,Referral,5089.74,Not Converted,63.7
+L0708,Client_708,Finance,South,Email Campaign,25755.13,Converted,69.7
+L0709,Client_709,Manufacturing,North,Referral,49221.41,Not Converted,48.4
+L0710,Client_710,Manufacturing,North,Email Campaign,9131.79,Not Converted,63.6
+L0711,Client_711,Finance,North,Cold Call,8949.44,Converted,1.9
+L0712,Client_712,Technology,South,Referral,26842.58,Not Converted,52.1
+L0713,Client_713,Technology,South,Social Media,4890.92,Converted,52.9
+L0714,Client_714,Technology,South,Cold Call,43050.68,Not Converted,59.2
+L0715,Client_715,Healthcare,South,Social Media,35801.9,Converted,23.3
+L0716,Client_716,Retail,South,Social Media,41260.21,Converted,33.6
+L0717,Client_717,Technology,East,Cold Call,25216.41,Converted,59.8
+L0718,Client_718,Manufacturing,South,Website,9514.32,Not Converted,51.6
+L0719,Client_719,Manufacturing,East,Email Campaign,5931.24,Converted,18.0
+L0720,Client_720,Manufacturing,West,Cold Call,18049.13,Not Converted,33.0
+L0721,Client_721,Healthcare,East,Referral,32906.23,Converted,45.1
+L0722,Client_722,Healthcare,North,Social Media,42230.93,Not Converted,34.5
+L0723,Client_723,Healthcare,West,Social Media,32072.96,Converted,10.0
+L0724,Client_724,Finance,West,Social Media,16930.1,Converted,49.7
+L0725,Client_725,Retail,East,Website,9569.19,Converted,61.8
+L0726,Client_726,Finance,North,Website,42015.02,Converted,20.8
+L0727,Client_727,Healthcare,West,Email Campaign,35013.38,Converted,37.4
+L0728,Client_728,Manufacturing,South,Social Media,11419.57,Converted,3.4
+L0729,Client_729,Retail,North,Website,33004.98,Not Converted,67.6
+L0730,Client_730,Manufacturing,East,Social Media,38537.17,Not Converted,57.0
+L0731,Client_731,Manufacturing,West,Social Media,13754.06,Not Converted,65.4
+L0732,Client_732,Retail,West,Referral,28461.59,Converted,8.9
+L0733,Client_733,Technology,East,Email Campaign,23557.56,Not Converted,62.4
+L0734,Client_734,Healthcare,North,Cold Call,19639.63,Converted,70.4
+L0735,Client_735,Retail,North,Cold Call,21704.87,Converted,4.0
+L0736,Client_736,Technology,South,Email Campaign,45985.75,Converted,20.9
+L0737,Client_737,Manufacturing,West,Social Media,15318.69,Not Converted,65.7
+L0738,Client_738,Technology,South,Cold Call,40440.43,Not Converted,2.3
+L0739,Client_739,Manufacturing,North,Referral,36606.88,Converted,22.6
+L0740,Client_740,Technology,East,Cold Call,14794.54,Converted,63.0
+L0741,Client_741,Healthcare,East,Website,35480.61,Converted,39.4
+L0742,Client_742,Manufacturing,West,Website,12852.8,Converted,1.9
+L0743,Client_743,Healthcare,North,Website,15762.0,Converted,43.5
+L0744,Client_744,Finance,North,Cold Call,15696.04,Converted,53.8
+L0745,Client_745,Manufacturing,North,Social Media,45241.85,Not Converted,61.5
+L0746,Client_746,Technology,South,Referral,30067.86,Converted,64.4
+L0747,Client_747,Healthcare,South,Cold Call,4869.49,Not Converted,18.0
+L0748,Client_748,Technology,West,Email Campaign,2698.84,Not Converted,42.4
+L0749,Client_749,Technology,East,Email Campaign,42929.11,Converted,38.0
+L0750,Client_750,Retail,North,Referral,41737.3,Converted,43.5
+L0751,Client_751,Manufacturing,North,Social Media,5599.01,Not Converted,65.6
+L0752,Client_752,Finance,North,Cold Call,41635.05,Not Converted,63.4
+L0753,Client_753,Manufacturing,North,Website,26354.87,Converted,31.6
+L0754,Client_754,Manufacturing,East,Social Media,22295.2,Not Converted,55.9
+L0755,Client_755,Manufacturing,West,Website,44733.64,Not Converted,32.5
+L0756,Client_756,Healthcare,South,Email Campaign,31934.07,Not Converted,43.0
+L0757,Client_757,Manufacturing,East,Email Campaign,12634.24,Converted,37.4
+L0758,Client_758,Healthcare,North,Cold Call,19841.06,Not Converted,35.6
+L0759,Client_759,Retail,North,Website,47576.02,Not Converted,43.6
+L0760,Client_760,Technology,West,Website,25807.04,Converted,46.0
+L0761,Client_761,Retail,West,Social Media,13465.19,Not Converted,26.7
+L0762,Client_762,Finance,South,Social Media,3236.79,Converted,10.9
+L0763,Client_763,Finance,East,Email Campaign,48605.1,Converted,24.5
+L0764,Client_764,Retail,East,Website,10608.79,Converted,44.4
+L0765,Client_765,Retail,West,Referral,11142.64,Converted,37.7
+L0766,Client_766,Finance,South,Email Campaign,1375.54,Converted,16.6
+L0767,Client_767,Manufacturing,East,Social Media,6293.26,Not Converted,25.1
+L0768,Client_768,Healthcare,East,Social Media,29030.38,Converted,37.4
+L0769,Client_769,Healthcare,North,Email Campaign,46655.93,Converted,29.2
+L0770,Client_770,Finance,West,Cold Call,31236.26,Converted,9.1
+L0771,Client_771,Healthcare,North,Email Campaign,25863.18,Converted,63.1
+L0772,Client_772,Healthcare,North,Cold Call,35410.68,Converted,71.5
+L0773,Client_773,Manufacturing,West,Social Media,14461.84,Not Converted,29.0
+L0774,Client_774,Technology,South,Email Campaign,21140.03,Not Converted,65.4
+L0775,Client_775,Technology,East,Social Media,30787.36,Converted,23.0
+L0776,Client_776,Technology,South,Website,47797.97,Converted,59.3
+L0777,Client_777,Healthcare,South,Social Media,32183.67,Converted,4.6
+L0778,Client_778,Finance,South,Referral,3916.71,Not Converted,43.9
+L0779,Client_779,Manufacturing,West,Cold Call,6609.89,Not Converted,28.3
+L0780,Client_780,Manufacturing,North,Referral,19083.6,Converted,9.6
+L0781,Client_781,Technology,South,Social Media,37807.72,Converted,6.0
+L0782,Client_782,Retail,North,Website,18383.79,Not Converted,67.9
+L0783,Client_783,Technology,East,Email Campaign,34254.83,Not Converted,26.7
+L0784,Client_784,Technology,North,Referral,1496.43,Not Converted,46.2
+L0785,Client_785,Technology,South,Social Media,31016.1,Not Converted,63.0
+L0786,Client_786,Technology,East,Social Media,6907.36,Converted,65.1
+L0787,Client_787,Healthcare,North,Social Media,27164.41,Converted,11.1
+L0788,Client_788,Manufacturing,South,Cold Call,21679.68,Converted,21.9
+L0789,Client_789,Finance,North,Email Campaign,29282.79,Converted,4.1
+L0790,Client_790,Healthcare,East,Social Media,28373.48,Not Converted,25.4
+L0791,Client_791,Healthcare,West,Social Media,32962.29,Not Converted,61.0
+L0792,Client_792,Manufacturing,West,Cold Call,22066.62,Converted,48.8
+L0793,Client_793,Retail,South,Referral,16009.36,Not Converted,57.0
+L0794,Client_794,Healthcare,South,Referral,40120.64,Not Converted,59.4
+L0795,Client_795,Healthcare,North,Referral,45915.13,Converted,31.6
+L0796,Client_796,Retail,West,Referral,29527.74,Not Converted,27.4
+L0797,Client_797,Healthcare,East,Referral,35573.71,Converted,49.9
+L0798,Client_798,Technology,South,Email Campaign,9176.15,Converted,31.6
+L0799,Client_799,Healthcare,North,Referral,44614.75,Converted,25.6
+L0800,Client_800,Technology,East,Website,2246.94,Not Converted,46.9
+L0801,Client_801,Manufacturing,South,Website,17689.6,Converted,6.1
+L0802,Client_802,Healthcare,West,Cold Call,16249.66,Not Converted,49.1
+L0803,Client_803,Healthcare,North,Referral,18865.09,Not Converted,16.5
+L0804,Client_804,Retail,South,Cold Call,23246.08,Converted,49.9
+L0805,Client_805,Technology,South,Cold Call,24793.9,Converted,3.0
+L0806,Client_806,Technology,West,Website,48236.85,Converted,28.3
+L0807,Client_807,Healthcare,South,Social Media,2516.83,Converted,28.5
+L0808,Client_808,Technology,East,Email Campaign,2144.25,Not Converted,54.7
+L0809,Client_809,Healthcare,South,Website,15172.99,Converted,64.9
+L0810,Client_810,Technology,South,Cold Call,47840.02,Converted,23.3
+L0811,Client_811,Technology,West,Email Campaign,30544.2,Not Converted,59.7
+L0812,Client_812,Finance,North,Referral,15131.87,Not Converted,69.2
+L0813,Client_813,Technology,North,Email Campaign,19890.08,Not Converted,25.2
+L0814,Client_814,Healthcare,North,Referral,8553.11,Not Converted,40.3
+L0815,Client_815,Retail,East,Social Media,38333.19,Converted,60.2
+L0816,Client_816,Manufacturing,West,Email Campaign,15814.33,Converted,19.4
+L0817,Client_817,Retail,North,Email Campaign,3824.73,Converted,25.3
+L0818,Client_818,Healthcare,North,Referral,48354.45,Converted,40.6
+L0819,Client_819,Retail,West,Social Media,29442.91,Converted,10.9
+L0820,Client_820,Finance,South,Referral,31685.48,Converted,35.7
+L0821,Client_821,Manufacturing,West,Cold Call,49698.57,Not Converted,63.5
+L0822,Client_822,Manufacturing,East,Cold Call,28899.49,Converted,45.1
+L0823,Client_823,Technology,West,Cold Call,20361.75,Converted,3.8
+L0824,Client_824,Manufacturing,East,Referral,27608.2,Not Converted,17.2
+L0825,Client_825,Retail,West,Email Campaign,45563.28,Not Converted,52.3
+L0826,Client_826,Finance,West,Website,43628.49,Converted,10.3
+L0827,Client_827,Manufacturing,East,Social Media,7116.22,Converted,57.4
+L0828,Client_828,Finance,North,Referral,43977.44,Converted,68.0
+L0829,Client_829,Manufacturing,West,Social Media,23671.1,Converted,70.7
+L0830,Client_830,Technology,East,Cold Call,43313.83,Converted,42.8
+L0831,Client_831,Retail,North,Website,15003.39,Not Converted,15.4
+L0832,Client_832,Manufacturing,West,Email Campaign,19940.48,Not Converted,37.3
+L0833,Client_833,Finance,East,Referral,29286.67,Not Converted,62.5
+L0834,Client_834,Healthcare,East,Social Media,20971.63,Not Converted,59.8
+L0835,Client_835,Manufacturing,North,Email Campaign,29102.92,Converted,68.9
+L0836,Client_836,Retail,North,Website,6353.95,Not Converted,61.6
+L0837,Client_837,Manufacturing,East,Social Media,42501.47,Converted,64.4
+L0838,Client_838,Healthcare,West,Social Media,44289.77,Not Converted,32.8
+L0839,Client_839,Manufacturing,North,Social Media,31703.03,Converted,66.8
+L0840,Client_840,Manufacturing,South,Social Media,24365.33,Not Converted,49.8
+L0841,Client_841,Finance,North,Email Campaign,34934.09,Converted,10.5
+L0842,Client_842,Technology,East,Email Campaign,18577.06,Converted,58.1
+L0843,Client_843,Finance,North,Referral,11324.54,Converted,69.0
+L0844,Client_844,Manufacturing,North,Cold Call,49893.22,Not Converted,49.1
+L0845,Client_845,Finance,East,Website,15436.35,Not Converted,2.0
+L0846,Client_846,Healthcare,East,Referral,41873.09,Converted,53.6
+L0847,Client_847,Finance,West,Cold Call,37917.97,Not Converted,55.6
+L0848,Client_848,Healthcare,East,Referral,38539.68,Not Converted,61.1
+L0849,Client_849,Manufacturing,South,Referral,5341.63,Converted,35.6
+L0850,Client_850,Healthcare,North,Referral,20969.61,Converted,29.9
+L0851,Client_851,Manufacturing,South,Social Media,18092.21,Not Converted,8.9
+L0852,Client_852,Manufacturing,North,Referral,47436.71,Not Converted,6.1
+L0853,Client_853,Healthcare,North,Email Campaign,26606.25,Converted,22.3
+L0854,Client_854,Technology,East,Website,25530.59,Not Converted,57.4
+L0855,Client_855,Retail,South,Website,3461.07,Converted,6.2
+L0856,Client_856,Finance,East,Email Campaign,15469.23,Converted,17.5
+L0857,Client_857,Finance,East,Email Campaign,40370.65,Converted,67.0
+L0858,Client_858,Finance,South,Referral,45399.44,Converted,23.8
+L0859,Client_859,Technology,North,Referral,12075.42,Not Converted,46.5
+L0860,Client_860,Technology,East,Referral,30571.16,Not Converted,26.4
+L0861,Client_861,Finance,East,Website,7023.11,Not Converted,64.1
+L0862,Client_862,Healthcare,East,Cold Call,23018.14,Not Converted,42.6
+L0863,Client_863,Healthcare,West,Email Campaign,4517.01,Converted,49.5
+L0864,Client_864,Technology,East,Email Campaign,35983.68,Not Converted,59.4
+L0865,Client_865,Finance,North,Referral,28072.55,Converted,37.9
+L0866,Client_866,Retail,West,Referral,38991.96,Converted,20.3
+L0867,Client_867,Healthcare,West,Social Media,14929.43,Converted,10.5
+L0868,Client_868,Technology,West,Referral,3662.27,Not Converted,54.2
+L0869,Client_869,Finance,West,Website,1006.6,Converted,37.3
+L0870,Client_870,Manufacturing,South,Cold Call,14532.31,Converted,51.2
+L0871,Client_871,Manufacturing,North,Social Media,42127.59,Converted,1.3
+L0872,Client_872,Finance,North,Email Campaign,37304.3,Converted,23.5
+L0873,Client_873,Manufacturing,East,Social Media,18651.46,Not Converted,20.2
+L0874,Client_874,Manufacturing,North,Email Campaign,16354.05,Not Converted,57.0
+L0875,Client_875,Technology,South,Website,22257.05,Converted,65.6
+L0876,Client_876,Finance,South,Cold Call,48239.84,Converted,7.3
+L0877,Client_877,Retail,East,Referral,25196.89,Not Converted,28.5
+L0878,Client_878,Retail,West,Email Campaign,35489.0,Converted,1.3
+L0879,Client_879,Healthcare,East,Cold Call,35939.26,Not Converted,48.3
+L0880,Client_880,Technology,North,Social Media,38290.85,Not Converted,68.5
+L0881,Client_881,Finance,East,Email Campaign,15604.56,Not Converted,8.5
+L0882,Client_882,Healthcare,South,Cold Call,32563.31,Converted,4.4
+L0883,Client_883,Healthcare,East,Email Campaign,47883.19,Converted,36.5
+L0884,Client_884,Retail,West,Email Campaign,23427.28,Converted,15.8
+L0885,Client_885,Technology,West,Referral,19120.85,Not Converted,4.7
+L0886,Client_886,Healthcare,East,Cold Call,21408.72,Not Converted,59.4
+L0887,Client_887,Finance,South,Website,11387.71,Not Converted,47.7
+L0888,Client_888,Healthcare,West,Website,44127.68,Converted,16.3
+L0889,Client_889,Manufacturing,South,Cold Call,30779.85,Converted,22.0
+L0890,Client_890,Retail,North,Website,32930.35,Converted,53.4
+L0891,Client_891,Healthcare,East,Referral,32596.8,Not Converted,29.1
+L0892,Client_892,Technology,South,Cold Call,10761.55,Converted,64.2
+L0893,Client_893,Technology,South,Website,19021.51,Converted,5.1
+L0894,Client_894,Manufacturing,North,Website,26277.23,Converted,20.0
+L0895,Client_895,Healthcare,South,Website,1719.98,Not Converted,27.9
+L0896,Client_896,Healthcare,North,Cold Call,1947.05,Converted,9.8
+L0897,Client_897,Manufacturing,South,Email Campaign,25150.36,Not Converted,29.7
+L0898,Client_898,Retail,East,Cold Call,30161.45,Converted,1.7
+L0899,Client_899,Manufacturing,South,Referral,48211.46,Not Converted,37.9
+L0900,Client_900,Healthcare,South,Email Campaign,16281.33,Not Converted,56.0
+L0901,Client_901,Healthcare,West,Website,26543.51,Converted,70.3
+L0902,Client_902,Finance,West,Cold Call,1830.44,Not Converted,55.7
+L0903,Client_903,Healthcare,East,Social Media,6890.15,Converted,19.9
+L0904,Client_904,Retail,East,Referral,15372.12,Not Converted,55.9
+L0905,Client_905,Healthcare,East,Website,18056.68,Converted,27.4
+L0906,Client_906,Retail,East,Website,15690.23,Not Converted,46.9
+L0907,Client_907,Retail,North,Referral,42505.98,Converted,2.7
+L0908,Client_908,Finance,South,Cold Call,39376.72,Converted,56.4
+L0909,Client_909,Finance,East,Website,20502.26,Converted,22.5
+L0910,Client_910,Healthcare,South,Cold Call,12183.53,Converted,18.5
+L0911,Client_911,Healthcare,West,Cold Call,37624.78,Converted,34.6
+L0912,Client_912,Technology,North,Referral,47931.7,Not Converted,67.9
+L0913,Client_913,Retail,West,Social Media,49575.07,Not Converted,39.7
+L0914,Client_914,Finance,North,Website,4704.65,Converted,27.0
+L0915,Client_915,Retail,South,Cold Call,10595.82,Converted,11.0
+L0916,Client_916,Finance,West,Website,39284.77,Converted,42.1
+L0917,Client_917,Finance,South,Cold Call,40745.06,Converted,46.2
+L0918,Client_918,Finance,East,Cold Call,34032.38,Converted,19.5
+L0919,Client_919,Healthcare,South,Referral,45956.81,Converted,21.6
+L0920,Client_920,Retail,East,Social Media,44616.92,Converted,51.2
+L0921,Client_921,Technology,East,Social Media,8217.85,Converted,1.6
+L0922,Client_922,Finance,South,Website,22936.0,Not Converted,10.5
+L0923,Client_923,Finance,West,Website,26953.33,Converted,18.2
+L0924,Client_924,Retail,East,Cold Call,34301.4,Converted,6.4
+L0925,Client_925,Healthcare,North,Referral,40541.31,Not Converted,33.6
+L0926,Client_926,Technology,West,Cold Call,22207.98,Converted,4.1
+L0927,Client_927,Finance,North,Referral,22831.54,Converted,15.9
+L0928,Client_928,Technology,West,Cold Call,42338.83,Not Converted,70.7
+L0929,Client_929,Healthcare,North,Cold Call,42835.46,Not Converted,18.2
+L0930,Client_930,Manufacturing,East,Cold Call,10649.36,Not Converted,68.6
+L0931,Client_931,Manufacturing,West,Email Campaign,35874.42,Not Converted,70.7
+L0932,Client_932,Retail,East,Social Media,13717.55,Not Converted,32.0
+L0933,Client_933,Technology,South,Email Campaign,4581.0,Not Converted,45.2
+L0934,Client_934,Healthcare,South,Email Campaign,10315.27,Not Converted,57.3
+L0935,Client_935,Healthcare,South,Website,47241.38,Not Converted,69.2
+L0936,Client_936,Retail,East,Email Campaign,48888.09,Converted,54.8
+L0937,Client_937,Manufacturing,East,Cold Call,24368.11,Converted,52.0
+L0938,Client_938,Healthcare,North,Referral,32390.14,Converted,48.3
+L0939,Client_939,Technology,West,Referral,28689.18,Converted,55.8
+L0940,Client_940,Retail,East,Referral,1593.05,Converted,1.6
+L0941,Client_941,Manufacturing,East,Website,46383.51,Converted,17.2
+L0942,Client_942,Technology,South,Social Media,11881.72,Not Converted,23.8
+L0943,Client_943,Retail,East,Website,36714.21,Converted,7.8
+L0944,Client_944,Finance,North,Email Campaign,2429.32,Not Converted,35.1
+L0945,Client_945,Healthcare,East,Website,6806.63,Converted,21.5
+L0946,Client_946,Healthcare,West,Cold Call,46057.02,Converted,71.5
+L0947,Client_947,Finance,West,Cold Call,38289.39,Converted,27.4
+L0948,Client_948,Technology,North,Social Media,37958.98,Not Converted,66.2
+L0949,Client_949,Technology,West,Cold Call,29279.01,Not Converted,26.4
+L0950,Client_950,Technology,East,Cold Call,13299.07,Not Converted,41.0
+L0951,Client_951,Manufacturing,North,Social Media,33174.92,Converted,18.1
+L0952,Client_952,Healthcare,South,Cold Call,45993.72,Converted,8.2
+L0953,Client_953,Healthcare,East,Email Campaign,11821.79,Converted,3.8
+L0954,Client_954,Manufacturing,West,Website,9585.87,Converted,62.5
+L0955,Client_955,Retail,West,Social Media,47572.5,Converted,42.3
+L0956,Client_956,Healthcare,West,Cold Call,29424.35,Not Converted,37.7
+L0957,Client_957,Manufacturing,North,Email Campaign,14842.31,Not Converted,26.1
+L0958,Client_958,Technology,East,Website,47376.37,Converted,64.4
+L0959,Client_959,Healthcare,East,Email Campaign,39237.91,Converted,34.8
+L0960,Client_960,Retail,North,Cold Call,11029.33,Converted,43.0
+L0961,Client_961,Finance,South,Referral,17246.67,Converted,61.7
+L0962,Client_962,Manufacturing,North,Referral,4486.76,Not Converted,5.9
+L0963,Client_963,Finance,North,Website,25839.1,Not Converted,30.1
+L0964,Client_964,Healthcare,West,Cold Call,41955.47,Not Converted,24.6
+L0965,Client_965,Healthcare,South,Social Media,38785.02,Converted,47.5
+L0966,Client_966,Finance,West,Cold Call,43918.27,Converted,39.3
+L0967,Client_967,Manufacturing,East,Website,21836.18,Converted,3.7
+L0968,Client_968,Retail,North,Referral,38511.79,Converted,1.0
+L0969,Client_969,Healthcare,North,Social Media,26603.0,Not Converted,4.9
+L0970,Client_970,Manufacturing,East,Website,12080.14,Converted,22.6
+L0971,Client_971,Healthcare,East,Social Media,12290.42,Not Converted,1.1
+L0972,Client_972,Retail,South,Social Media,48375.43,Converted,16.9
+L0973,Client_973,Retail,South,Email Campaign,37352.92,Converted,61.2
+L0974,Client_974,Manufacturing,East,Referral,15843.61,Not Converted,24.1
+L0975,Client_975,Healthcare,East,Social Media,41022.19,Converted,13.9
+L0976,Client_976,Retail,North,Website,45195.07,Not Converted,58.3
+L0977,Client_977,Retail,South,Cold Call,37958.16,Not Converted,28.9
+L0978,Client_978,Manufacturing,East,Email Campaign,33389.7,Converted,6.6
+L0979,Client_979,Technology,South,Referral,35756.72,Converted,12.9
+L0980,Client_980,Healthcare,South,Website,29604.87,Converted,68.6
+L0981,Client_981,Manufacturing,East,Social Media,14000.98,Converted,43.7
+L0982,Client_982,Retail,East,Referral,36006.78,Converted,54.9
+L0983,Client_983,Manufacturing,North,Email Campaign,26178.87,Converted,37.1
+L0984,Client_984,Manufacturing,East,Website,46713.32,Not Converted,59.8
+L0985,Client_985,Finance,South,Social Media,36002.01,Not Converted,33.8
+L0986,Client_986,Manufacturing,East,Social Media,35035.18,Not Converted,52.8
+L0987,Client_987,Manufacturing,North,Cold Call,14429.51,Converted,58.3
+L0988,Client_988,Retail,West,Social Media,17921.76,Not Converted,24.8
+L0989,Client_989,Retail,North,Social Media,42970.32,Not Converted,50.8
+L0990,Client_990,Manufacturing,East,Social Media,28541.57,Converted,68.2
+L0991,Client_991,Healthcare,West,Cold Call,19645.37,Not Converted,12.6
+L0992,Client_992,Retail,South,Website,36987.75,Converted,28.3
+L0993,Client_993,Retail,North,Cold Call,42110.87,Converted,1.8
+L0994,Client_994,Healthcare,East,Referral,48542.6,Converted,32.1
+L0995,Client_995,Manufacturing,East,Website,35538.68,Not Converted,59.0
+L0996,Client_996,Finance,West,Cold Call,48384.73,Converted,4.7
+L0997,Client_997,Manufacturing,North,Website,36204.24,Converted,62.2
+L0998,Client_998,Manufacturing,East,Cold Call,40200.17,Converted,40.2
+L0999,Client_999,Finance,North,Email Campaign,7454.04,Converted,62.4
+L1000,Client_1000,Healthcare,North,Website,16179.61,Not Converted,21.6
